@@ -1,0 +1,664 @@
+module.exports = {
+  "content": [
+   {
+       "eventID": 0,
+       "name": "driver e-business",
+       "orgName": "Oberbrunner LLC",
+       "type": "challenge",
+       "statusAvailability": true,
+       "tags": ["Analyst", "Turnpike"],
+       "location": {
+           "longitude": -86.1596,
+           "latitude": 83.2424,
+           "name": "New Ellie"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 20:08:40 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Fri Sep 21 2018 07:38:03 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Mon Oct 15 2018 11:07:09 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "oberbrunnerllc.com",
+           "contactNumber": "596-572-2037",
+           "email": "contact@oberbrunnerllc.com"
+       },
+       "desc": "Multi-channelled",
+       "commitment": "5 days/week",
+       "avgCommitment": 1,
+       "duration": 11,
+       "participants": {
+           "max": 1,
+           "number": 1,
+           "members": [15]
+       },
+       "url": "oberbrunnerllc.com/drivere-business"
+   },
+   {
+       "eventID": 1,
+       "name": "GB",
+       "orgName": "Collier, Stiedemann and Stamm",
+       "type": "markets",
+       "statusAvailability": false,
+       "tags": ["Personal Loan Account", "Egypt", "Plastic"],
+       "location": {
+           "longitude": 170.1924,
+           "latitude": -61.4971,
+           "name": "Collinsburgh"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 05:59:17 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Sun Dec 09 2018 07:07:01 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationClose": "Thu May 30 2019 12:17:41 GMT+1000 (AUS Eastern Standard Time)"
+       },
+       "contact": {
+           "website": "collierstiedemannandstamm.com",
+           "contactNumber": "(084) 323-7618",
+           "email": "contact@collierstiedemannandstamm.com"
+       },
+       "desc": "auxiliary",
+       "commitment": "5 days/week",
+       "avgCommitment": 13,
+       "duration": 3,
+       "participants": {
+           "max": 5,
+           "number": 1,
+           "members": [15]
+       },
+       "url": "collierstiedemannandstamm.com/gb"
+   },
+   {
+       "eventID": 2,
+       "name": "reboot transmitter",
+       "orgName": "Thiel - Aufderhar",
+       "type": "Fundamental",
+       "statusAvailability": true,
+       "tags": ["USB", "interface", "CSS"],
+       "location": {
+           "longitude": 23.9492,
+           "latitude": -51.2131,
+           "name": "New Luigiton"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 21:14:50 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Wed Dec 05 2018 14:50:43 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationClose": "Thu Dec 12 2019 21:43:25 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "thiel-aufderhar.com",
+           "contactNumber": "1-725-957-7617 x93640",
+           "email": "contact@thiel-aufderhar.com"
+       },
+       "desc": "pricing structure",
+       "commitment": "2 days/week",
+       "avgCommitment": 11,
+       "duration": 8,
+       "participants": {
+           "max": 4,
+           "number": 3,
+           "members": [1, 12, 7]
+       },
+       "url": "thiel-aufderhar.com/reboottransmitter"
+   },
+   {
+       "eventID": 3,
+       "name": "Sleek Frozen Pizza payment",
+       "orgName": "Emmerich, Rice and Berge",
+       "type": "Cotton",
+       "statusAvailability": true,
+       "tags": ["Future"],
+       "location": {
+           "longitude": -146.2342,
+           "latitude": -54.7624,
+           "name": "Adamsview"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 00:49:50 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Tue Dec 25 2018 07:11:31 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationClose": "Sun Nov 24 2019 02:30:21 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "emmerichriceandberge.com",
+           "contactNumber": "444.537.9257 x2610",
+           "email": "contact@emmerichriceandberge.com"
+       },
+       "desc": "withdrawal Incredible",
+       "commitment": "7 days/week",
+       "avgCommitment": 12,
+       "duration": 1,
+       "participants": {
+           "max": 9,
+           "number": 3,
+           "members": [12, 19, 12]
+       },
+       "url": "emmerichriceandberge.com/sleekfrozenpizzapayment"
+   },
+   {
+       "eventID": 4,
+       "name": "deposit",
+       "orgName": "Flatley, Mraz and Klein",
+       "type": "circuit",
+       "statusAvailability": true,
+       "tags": [],
+       "location": {
+           "longitude": 159.8091,
+           "latitude": 56.6779,
+           "name": "Rohanborough"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 04:52:03 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Thu Jun 21 2018 06:21:14 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Wed Aug 22 2018 17:00:51 GMT+1000 (AUS Eastern Standard Time)"
+       },
+       "contact": {
+           "website": "flatleymrazandklein.com",
+           "contactNumber": "1-193-018-8898",
+           "email": "contact@flatleymrazandklein.com"
+       },
+       "desc": "Car content",
+       "commitment": "1 days/week",
+       "avgCommitment": 1,
+       "duration": 11,
+       "participants": {
+           "max": 4,
+           "number": 2,
+           "members": [1, 9]
+       },
+       "url": "flatleymrazandklein.com/deposit"
+   },
+   {
+       "eventID": 5,
+       "name": "Tanzania Savings Account empower",
+       "orgName": "Kovacek - Metz",
+       "type": "Consultant",
+       "statusAvailability": true,
+       "tags": [],
+       "location": {
+           "longitude": 176.0161,
+           "latitude": 30.0611,
+           "name": "New Millieton"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 17:48:25 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Fri Aug 03 2018 19:00:19 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Thu Dec 27 2018 14:14:23 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "kovacek-metz.com",
+           "contactNumber": "162-190-0492 x2416",
+           "email": "contact@kovacek-metz.com"
+       },
+       "desc": "Ergonomic invoice Berkshire",
+       "commitment": "3 days/week",
+       "avgCommitment": 1,
+       "duration": 2,
+       "participants": {
+           "max": 10,
+           "number": 4,
+           "members": [12, 7, 13, 10]
+       },
+       "url": "kovacek-metz.com/tanzaniasavingsaccountempower"
+   },
+   {
+       "eventID": 6,
+       "name": "deposit",
+       "orgName": "Brown, Lind and Runolfsdottir",
+       "type": "value-added",
+       "statusAvailability": true,
+       "tags": ["Programmable", "calculating"],
+       "location": {
+           "longitude": 15.8556,
+           "latitude": 84.9569,
+           "name": "Lake Stan"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 01:04:54 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Mon May 28 2018 12:26:19 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Fri Aug 10 2018 18:23:43 GMT+1000 (AUS Eastern Standard Time)"
+       },
+       "contact": {
+           "website": "brownlindandrunolfsdottir.com",
+           "contactNumber": "583-149-5767 x3123",
+           "email": "contact@brownlindandrunolfsdottir.com"
+       },
+       "desc": "dedicated",
+       "commitment": "5 days/week",
+       "avgCommitment": 11,
+       "duration": 1,
+       "participants": {
+           "max": 10,
+           "number": 9,
+           "members": [18, 6, 2, 11, 15, 9, 2, 10, 14]
+       },
+       "url": "brownlindandrunolfsdottir.com/deposit"
+   },
+   {
+       "eventID": 7,
+       "name": "Buckinghamshire complexity",
+       "orgName": "Hand LLC",
+       "type": "Officer",
+       "statusAvailability": false,
+       "tags": ["Garden", "Tools", "firewall", "Cambridgeshire"],
+       "location": {
+           "longitude": -83.3433,
+           "latitude": -5.3367,
+           "name": "South Brandymouth"
+       },
+       "date": {
+           "dateCreated": "Fri Mar 23 2018 23:21:37 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Fri Sep 07 2018 07:45:20 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Mon Dec 24 2018 08:17:06 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "handllc.com",
+           "contactNumber": "213.560.5808 x0641",
+           "email": "contact@handllc.com"
+       },
+       "desc": "Concrete attitude",
+       "commitment": "6 days/week",
+       "avgCommitment": 14,
+       "duration": 11,
+       "participants": {
+           "max": 9,
+           "number": 9,
+           "members": [0, 17, 13, 17, 1, 2, 4, 14, 2]
+       },
+       "url": "handllc.com/buckinghamshirecomplexity"
+   },
+   {
+       "eventID": 8,
+       "name": "Ergonomic Plastic Sausages",
+       "orgName": "Lind, Roberts and Donnelly",
+       "type": "Monitored",
+       "statusAvailability": false,
+       "tags": ["Inverse"],
+       "location": {
+           "longitude": -93.3589,
+           "latitude": -75.4353,
+           "name": "Lake Clare"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 06:48:09 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Sun Apr 22 2018 23:18:34 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Sun Nov 18 2018 11:25:57 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "lindrobertsanddonnelly.com",
+           "contactNumber": "635-493-3035 x861",
+           "email": "contact@lindrobertsanddonnelly.com"
+       },
+       "desc": "navigate",
+       "commitment": "2 days/week",
+       "avgCommitment": 10,
+       "duration": 2,
+       "participants": {
+           "max": 5,
+           "number": 2,
+           "members": [16, 7]
+       },
+       "url": "lindrobertsanddonnelly.com/ergonomicplasticsausages"
+   },
+   {
+       "eventID": 9,
+       "name": "Liaison Handmade Soft Cheese Dominican Peso",
+       "orgName": "Keeling Inc",
+       "type": "panel",
+       "statusAvailability": false,
+       "tags": ["Shoes", "blue", "SMS", "Future"],
+       "location": {
+           "longitude": -114.6457,
+           "latitude": 88.2889,
+           "name": "Borerborough"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 04:55:26 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Fri Jul 20 2018 08:07:14 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Mon Feb 18 2019 05:30:25 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "keelinginc.com",
+           "contactNumber": "486.035.8392",
+           "email": "contact@keelinginc.com"
+       },
+       "desc": "Pennsylvania mobile gold",
+       "commitment": "3 days/week",
+       "avgCommitment": 12,
+       "duration": 2,
+       "participants": {
+           "max": 3,
+           "number": 1,
+           "members": [17]
+       },
+       "url": "keelinginc.com/liaisonhandmadesoftcheesedominicanpeso"
+   },
+   {
+       "eventID": 10,
+       "name": "Manager Wyoming Kroon",
+       "orgName": "Abshire, Stracke and Krajcik",
+       "type": "Regional",
+       "statusAvailability": false,
+       "tags": [],
+       "location": {
+           "longitude": -83.7792,
+           "latitude": 71.6869,
+           "name": "Lake Chynaland"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 21:12:08 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Sat Aug 11 2018 08:44:42 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Mon Dec 24 2018 21:56:09 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "abshirestrackeandkrajcik.com",
+           "contactNumber": "1-629-479-0839",
+           "email": "contact@abshirestrackeandkrajcik.com"
+       },
+       "desc": "Guarani Vista Bouvet Island (Bouvetoya)",
+       "commitment": "6 days/week",
+       "avgCommitment": 6,
+       "duration": 5,
+       "participants": {
+           "max": 2,
+           "number": 2,
+           "members": [7, 15]
+       },
+       "url": "abshirestrackeandkrajcik.com/managerwyomingkroon"
+   },
+   {
+       "eventID": 11,
+       "name": "Home Loan Account e-enable",
+       "orgName": "Wuckert - Lakin",
+       "type": "deposit",
+       "statusAvailability": false,
+       "tags": ["Executive", "cyan", "invoice", "Steel"],
+       "location": {
+           "longitude": 147.3097,
+           "latitude": 19.5703,
+           "name": "Port Moshe"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 12:02:48 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Wed Oct 31 2018 00:42:22 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationClose": "Mon Oct 14 2019 09:40:03 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "wuckert-lakin.com",
+           "contactNumber": "295.898.9014 x93321",
+           "email": "contact@wuckert-lakin.com"
+       },
+       "desc": "deposit aggregate",
+       "commitment": "1 days/week",
+       "avgCommitment": 2,
+       "duration": 5,
+       "participants": {
+           "max": 4,
+           "number": 1,
+           "members": [3]
+       },
+       "url": "wuckert-lakin.com/homeloanaccounte-enable"
+   },
+   {
+       "eventID": 12,
+       "name": "3rd generation SDR Personal Loan Account",
+       "orgName": "McCullough - Monahan",
+       "type": "Officer",
+       "statusAvailability": false,
+       "tags": [],
+       "location": {
+           "longitude": 91.6159,
+           "latitude": -38.8770,
+           "name": "West Josieshire"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 17:10:51 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Mon Dec 24 2018 12:29:56 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationClose": "Wed Apr 17 2019 00:40:35 GMT+1000 (AUS Eastern Standard Time)"
+       },
+       "contact": {
+           "website": "mccullough-monahan.com",
+           "contactNumber": "1-620-001-0196 x977",
+           "email": "contact@mccullough-monahan.com"
+       },
+       "desc": "functionalities Berkshire",
+       "commitment": "7 days/week",
+       "avgCommitment": 3,
+       "duration": 5,
+       "participants": {
+           "max": 10,
+           "number": 7,
+           "members": [18, 10, 9, 8, 13, 10, 10]
+       },
+       "url": "mccullough-monahan.com/3rdgenerationsdrpersonalloanaccount"
+   },
+   {
+       "eventID": 13,
+       "name": "Seychelles Rupee",
+       "orgName": "Koelpin LLC",
+       "type": "matrix",
+       "statusAvailability": true,
+       "tags": ["Avon", "CSS", "lavender"],
+       "location": {
+           "longitude": 115.0954,
+           "latitude": 37.3212,
+           "name": "Haleyshire"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 02:13:58 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Fri Nov 09 2018 00:52:58 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationClose": "Tue Nov 13 2018 16:27:05 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "koelpinllc.com",
+           "contactNumber": "(647) 711-8832 x503",
+           "email": "contact@koelpinllc.com"
+       },
+       "desc": "Integration",
+       "commitment": "5 days/week",
+       "avgCommitment": 13,
+       "duration": 12,
+       "participants": {
+           "max": 7,
+           "number": 4,
+           "members": [7, 14, 7, 9]
+       },
+       "url": "koelpinllc.com/seychellesrupee"
+   },
+   {
+       "eventID": 14,
+       "name": "salmon",
+       "orgName": "Monahan Group",
+       "type": "Tasty Fresh Bike",
+       "statusAvailability": true,
+       "tags": ["Integration"],
+       "location": {
+           "longitude": -6.3402,
+           "latitude": -82.7774,
+           "name": "East Marcelina"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 06:54:32 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Sat Apr 07 2018 21:57:20 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Mon Nov 26 2018 23:52:53 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "monahangroup.com",
+           "contactNumber": "(270) 868-2773",
+           "email": "contact@monahangroup.com"
+       },
+       "desc": "Sharable Dominica generating",
+       "commitment": "4 days/week",
+       "avgCommitment": 14,
+       "duration": 5,
+       "participants": {
+           "max": 7,
+           "number": 1,
+           "members": [18]
+       },
+       "url": "monahangroup.com/salmon"
+   },
+   {
+       "eventID": 15,
+       "name": "secondary user-centric violet",
+       "orgName": "O'Hara - Cronin",
+       "type": "purple",
+       "statusAvailability": true,
+       "tags": ["strategic"],
+       "location": {
+           "longitude": 116.4345,
+           "latitude": 80.4578,
+           "name": "Roobbury"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 18:35:50 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Sun Nov 25 2018 18:14:18 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationClose": "Mon Dec 10 2018 03:32:32 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "ohara-cronin.com",
+           "contactNumber": "058.189.8508 x303",
+           "email": "contact@ohara-cronin.com"
+       },
+       "desc": "Refined",
+       "commitment": "3 days/week",
+       "avgCommitment": 14,
+       "duration": 9,
+       "participants": {
+           "max": 2,
+           "number": 1,
+           "members": [1]
+       },
+       "url": "ohara-cronin.com/secondaryuser-centricviolet"
+   },
+   {
+       "eventID": 16,
+       "name": "magenta mint green",
+       "orgName": "Emard, Morissette and Legros",
+       "type": "Saint Vincent and the Grenadines",
+       "statusAvailability": false,
+       "tags": ["alarm", "quantify"],
+       "location": {
+           "longitude": 111.6643,
+           "latitude": -73.4906,
+           "name": "West Weldonborough"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 07:43:00 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Mon Dec 17 2018 04:12:11 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationClose": "Wed Aug 28 2019 02:40:44 GMT+1000 (AUS Eastern Standard Time)"
+       },
+       "contact": {
+           "website": "emardmorissetteandlegros.com",
+           "contactNumber": "1-573-637-6278 x11653",
+           "email": "contact@emardmorissetteandlegros.com"
+       },
+       "desc": "GB bottom-line",
+       "commitment": "7 days/week",
+       "avgCommitment": 12,
+       "duration": 1,
+       "participants": {
+           "max": 7,
+           "number": 5,
+           "members": [17, 16, 14, 12, 1]
+       },
+       "url": "emardmorissetteandlegros.com/magentamintgreen"
+   },
+   {
+       "eventID": 17,
+       "name": "Checking Account Pizza",
+       "orgName": "Jast LLC",
+       "type": "New York",
+       "statusAvailability": true,
+       "tags": ["Books", "GB"],
+       "location": {
+           "longitude": 64.5339,
+           "latitude": -32.4145,
+           "name": "Casandraport"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 18:46:57 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Mon Jul 09 2018 02:27:56 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Fri Oct 25 2019 13:02:56 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "jastllc.com",
+           "contactNumber": "776.177.5269",
+           "email": "contact@jastllc.com"
+       },
+       "desc": "Granite Wooden Usability",
+       "commitment": "4 days/week",
+       "avgCommitment": 10,
+       "duration": 3,
+       "participants": {
+           "max": 4,
+           "number": 3,
+           "members": [1, 6, 10]
+       },
+       "url": "jastllc.com/checkingaccountpizza"
+   },
+   {
+       "eventID": 18,
+       "name": "Soft",
+       "orgName": "Runte, Okuneva and Roob",
+       "type": "Grocery",
+       "statusAvailability": true,
+       "tags": ["Estates"],
+       "location": {
+           "longitude": 68.5132,
+           "latitude": 11.8545,
+           "name": "Rolfsonberg"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 18:09:09 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Mon Jun 18 2018 03:48:11 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Sun Mar 31 2019 02:29:32 GMT+1100 (AUS Eastern Daylight Time)"
+       },
+       "contact": {
+           "website": "runteokunevaandroob.com",
+           "contactNumber": "329.342.0849 x5848",
+           "email": "contact@runteokunevaandroob.com"
+       },
+       "desc": "Philippines Administrator",
+       "commitment": "5 days/week",
+       "avgCommitment": 5,
+       "duration": 5,
+       "participants": {
+           "max": 10,
+           "number": 3,
+           "members": [14, 3, 14]
+       },
+       "url": "runteokunevaandroob.com/soft"
+   },
+   {
+       "eventID": 19,
+       "name": "neural overriding generating",
+       "orgName": "Yost, Jacobson and MacGyver",
+       "type": "Home Loan Account",
+       "statusAvailability": true,
+       "tags": ["PCI"],
+       "location": {
+           "longitude": -179.9660,
+           "latitude": -87.5212,
+           "name": "Stellamouth"
+       },
+       "date": {
+           "dateCreated": "Sat Mar 24 2018 03:43:36 GMT+1100 (AUS Eastern Daylight Time)",
+           "applicationOpen": "Sat Sep 22 2018 23:47:28 GMT+1000 (AUS Eastern Standard Time)",
+           "applicationClose": "Mon Sep 02 2019 18:09:25 GMT+1000 (AUS Eastern Standard Time)"
+       },
+       "contact": {
+           "website": "yostjacobsonandmacgyver.com",
+           "contactNumber": "1-641-317-0475 x3443",
+           "email": "contact@yostjacobsonandmacgyver.com"
+       },
+       "desc": "solution-oriented connecting",
+       "commitment": "1 days/week",
+       "avgCommitment": 6,
+       "duration": 2,
+       "participants": {
+           "max": 4,
+           "number": 1,
+           "members": [7]
+       },
+       "url": "yostjacobsonandmacgyver.com/neuraloverridinggenerating"
+   }
+]
+}
