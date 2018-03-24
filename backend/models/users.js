@@ -9,7 +9,7 @@ var user = new Schema({
     contact: {
         contactNumber: String,
         email: String,
-        website: String
+        website: String,
         emergencyContact: {
             name: String,
             contactNumber: String,

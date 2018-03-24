@@ -5,14 +5,9 @@ var event = new Schema({
     eventID: Number,
     name:  {type: String, required: true},
     orgName: String,
-    tags: [String],
     type: String,
-    Availability: Boolean,
-    contact:{
-        website: String,
-        contactNumber: String,
-        email: String,
-    },
+    statusAvailability: Boolean,
+    tags: [String],
     location: {
         longitude: Number,
         latitude: Number,
@@ -23,6 +18,11 @@ var event = new Schema({
         applicationOpen: {type: Date, default: Date.now},
         applicationClose: Date
     },
+    contact:{
+        website: String,
+        contactNumber: String,
+        email: String,
+    },
     desc: String,
     commitment: String,
     avgCommitment: Number,
@@ -31,9 +31,8 @@ var event = new Schema({
     participants: {
         max: Number, //userID
         number: Number,
-        membersID: [Number]
-    }
-    important: [String]
+        members: [Number]
+    },
     url: [String],
 });
 

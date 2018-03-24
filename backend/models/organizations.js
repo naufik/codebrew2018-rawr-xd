@@ -12,7 +12,7 @@ var organizations = new Schema({
     },
     members: [Number], //userID
     orgLocation: String, //address
-    pastEvents: [Number] //eventID
+    events: [Number] //eventID
 });
 
 var Org = mongoose.model('Org', organizations);

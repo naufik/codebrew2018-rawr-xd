@@ -24,9 +24,11 @@ var task = new Schema({
         email: String,
     },
     desc: String,
-    important: string,
+    commitment: String,
+    avgCommitment: Number,
+    duration: Number,
     requirements: [String],
-    url: [String]
+    url: String
 });
 
 var Task = mongoose.model('Task', task);
