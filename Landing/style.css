@@ -17,7 +17,7 @@
 }
 
 #profile{
-  background-color: #bfb8ad;
+  background-color: #c7d3bf;
   box-shadow: 3px 3px 12px black;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -73,13 +73,16 @@ p{
 }
 
 #mainSide{
-
-  height: calc(100%-10%);
-  margin: 0 auto;
+  padding-top: 20px;
+  left: 25%;
   box-shadow: 3px 3px 12px black;
   text-align: center;
   vertical-align: middle;
   background-color: #bfb8ad;
+}
+
+a{
+
 }
 
 #rightHandSide{
