@@ -47,9 +47,6 @@ body{
   border-style: solid;
 }
 
-tr:not(:last-child) {
-  border-bottom: 1px solid black; }
-
 #mainSide{
   height: 75%;
   margin: 0 auto;
