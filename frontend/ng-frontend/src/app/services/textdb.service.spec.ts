@@ -1,6 +1,6 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { TextdbService } from './textdb.service';
+import { JSONService } from './textdb.service';
 
 describe('TextdbService', () => {
   beforeEach(() => {

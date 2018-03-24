@@ -1,23 +1,27 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, EventEmitter, OnInit } from '@angular/core';
 import { ProfileService } from '../services/profile.service';
 
 @Component({
   selector: 'user',
-  providers: [ ProfileService ],
+  providers: [  ],
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-private service;
-private user;
+private service: ProfileService;
+public user;
+
   constructor(service: ProfileService) {
     this.service = service;
   }
 
   ngOnInit() {
-    this.service.getUser(69).then((u) => {
+    this.service.getAllUsers().then((u) => {
       this.user = u;
     })
   }
 
+  public userData() {
+    return JSON.stringify(this.user);
+  }
 }

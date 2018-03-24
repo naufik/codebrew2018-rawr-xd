@@ -12,8 +12,10 @@ export class JSONService {
 	public read(url: string): Promise<any[]> {
 		return new Promise((resolve, reject) => {
 			this.http.get(url).subscribe((data: any) => {
-				let k: any[] = data.content;
+				let k: any[] = data['content'];
 				resolve(k);
+			}, (error) => {
+				resolve(error);
 			});
 		});
 	}
