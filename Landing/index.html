@@ -27,8 +27,7 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                <div id='profile'>
+                <div id='profile' class="col">
                     <a href="*">
                         <img id="dp" src="images/jeff.jpg" width="100%">
                     </a>
@@ -37,67 +36,73 @@
                     <h3><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Tasks Available: 2</h3>
                 </div> <br/>
                 <div id='calendar'>
-                    <iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="250" height="250" frameborder="0" scrolling="no"></iframe>
+                    <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=400&amp;wkst=1&amp;bgcolor=%23cccccc&amp;src=staticddq%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FNew_York" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
                 </div>
-                </div>
-
                 <div class="col-6" id='mainSide'>
+
                     <div id='smallEvent'>
                         <a href="#">Cure small hunger</a><br/>
-                        <img src="images/eater.png" width="80%">
-                        <p>Description</p>
+                        <div id="img_wrapper" class="content-padding clearfix">
+                            <div class="eventImg">
+                                <img src="images/eater.png" width="100%">
+                                <div class="info-overlay">
+                                    <h3>Test</h3>
+                                    <h4>View more<i class="fa fa-arrow-right"></i></h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
                     <div id='bigEvent'>
                             <a href="#">Cure big hunger</a><br/>
-                            <img src="images/starEater.png" width="80%">
-                            <p>Description</p>
+                            <div id="img_wrapper" class="content-padding clearfix">
+                            <div class="eventImg">
+                                <img src="images/starEater.png" width="100%">
+                                <div class="info-overlay">
+                                    <h3>Test</h3>
+                                    <h4>View more<i class="fa fa-arrow-right"></i></h4>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="col">
-                <div id = 'rightHandSide'>
-                    <form action="some code">
-                        <input type="text" placeholder="Search.." name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </form><br/>
-                    <div id='filter'>
+                    <div id = 'rightHandSide'>
+                        <div id='filter'>
+                            <form action="some code">
+                                <div id="choices">
+                                    <input type="text" placeholder="Search.." name="search">
+                                    <button type="submit"><i class="fa fa-search"></i></button><br><br>
+                                    <label for="filter">Duration</label>
+                                    <input type="range"/><hr>
+                                    <label for="filter">Commitment</label>
+                                    <input type="number" name="Commitment" min="0" max="23"><hr>
+                                </div>
 
-                        <form action="some code">
-                            <div id="choices">
-                                <input type="checkbox"  id="withinRegion" unchecked />
-                                <label for="filter">Within the region</label><br/><br/>
-                                <label for="filter">Duration</label>
-                                <input type="range"/>
-                                <br/><br/>
+                                <div id="choices1">
+                                    <label for="filter">Within My Region</label>
+                                    <input type="checkbox"  id="withinRegion" unchecked /><hr>
+                                    <label for="filter">Clean water</label>
+                                    <input type="checkbox"  id="Water" unchecked /><hr>
 
-                                <label for="filter">Commitment</label>
-                                <input type="number" name="Commitment" min="0" max="23">
-                                <br/><br/><br/>
-                            </div>
-                            <div id="choices1">
-                                <input type="checkbox"  id="Water" unchecked />
-                                <label for="filter">Clean water</label><br/>
+                                    <label for="filter">Gender Equality</label>
+                                    <input type="checkbox"  id="Gender" unchecked /><hr>
 
-                                <input type="checkbox"  id="Gender" unchecked />
-                                <label for="filter">Gender Equality</label><br/>
+                                    <label for="filter">Poverty</label>
+                                    <input type="checkbox"  id="Poverty" unchecked /><hr>
 
-                                <input type="checkbox"  id="Poverty" unchecked />
-                                <label for="filter">Poverty</label><br/>
+                                    <label for="filter">Education</label>
+                                    <input type="checkbox"  id="Education" unchecked /><hr>
 
-                                <input type="checkbox"  id="Education" unchecked />
-                                <label for="filter">Education</label><br/>
-
-                                <input type="checkbox"  id="Health" unchecked />
-                                <label for="filter">Health</label><br/>
-                            </div>
-                        </form>
+                                    <label for="filter">Health</label>
+                                    <input type="checkbox"  id="Health" unchecked /><hr>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                </div>
                 </div>
             </div>
         </div>
     </body>
-</div>
-
-
 </html>
