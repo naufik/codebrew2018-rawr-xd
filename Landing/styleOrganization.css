@@ -87,6 +87,13 @@ h3{
     z-index: 5;
 }
 
+#logo{
+  position: absolute;
+  left: 35%;
+  bottom: 78%;
+  z-index: 5;
+}
+
 #googlemap{
   float:left;
   z-index: 1;
@@ -99,5 +106,13 @@ h3{
   bottom: 0%;
   font-size: 20px;
   padding: 5px;
+}
+
+#individualOption{
+  border-style: solid;
+}
+
+#options{
+  font-size: 150%;
 }
 
