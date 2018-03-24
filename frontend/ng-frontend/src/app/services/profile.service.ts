@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { JSONService } from './textdb.service';
 import * as Faker from 'faker';
 
-const source = ""
+const source = "";
 
 interface User {
 	userID: number,
@@ -12,7 +12,7 @@ interface User {
 	contact: {
 		contactNumber: string,
 		email: string,
-		website: string,
+		website?: string,
 		emergencyContact: {
 			name: string,
 			contact: string
@@ -30,5 +30,15 @@ interface User {
 
 @Injectable()
 export class ProfileService {
-	
+	private json: JSONService;
+	private data: User[];
+
+	constructor(client: JSONService) {
+		this.json = client;
+		client.read(source).then((content: User[]) => {
+			this.data = content;
+		});
+	} 
+
+
 }
