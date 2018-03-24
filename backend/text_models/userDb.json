@@ -1,0 +1,541 @@
+[
+   {
+       "userID": 0,
+       "name": {
+           "type": "Susie Abshire",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Mon Sep 09 1974 09:02:48 GMT+1000 (AUS Eastern Standard Time)",
+       "contact": {
+           "contactNumber": "1-534-513-9925 x5957",
+           "email": "susieabshire@gmail.com",
+           "website": "serbiandinar.net",
+           "emergencyContact": {
+               "name": "Agustina Lowe",
+               "contact": "416.947.8376"
+           }
+       },
+       "friends": [6, 15, 1, 12],
+       "organizations": [10],
+       "pastEvents": [0],
+       "currentEvents": [],
+       "pointsSystem": {
+           "rank": "withdrawal",
+           "points": "301",
+           "levelThreshold": "99"
+       }
+   }
+   {
+       "userID": 1,
+       "name": {
+           "type": "Nigel Schmidt",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Fri Jun 24 1904 12:21:08 GMT+1000 (AUS Eastern Standard Time)",
+       "contact": {
+           "contactNumber": "517.756.2752 x648",
+           "email": "nigelschmidt@gmail.com",
+           "website": "implementation.org",
+           "emergencyContact": {
+               "name": "Elody Kris",
+               "contact": "710.082.9555"
+           }
+       },
+       "friends": [16, 15, 17],
+       "organizations": [15, 9, 2],
+       "pastEvents": [15, 5],
+       "currentEvents": [4, 14],
+       "pointsSystem": {
+           "rank": "Supervisor",
+           "points": "977",
+           "levelThreshold": "23"
+       }
+   }
+   {
+       "userID": 2,
+       "name": {
+           "type": "Johnathon Kris",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Thu Feb 12 1920 23:52:29 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "(624) 870-2199 x453",
+           "email": "johnathonkris@gmail.com",
+           "website": "divide.org",
+           "emergencyContact": {
+               "name": "Vilma Robel",
+               "contact": "(388) 796-1006"
+           }
+       },
+       "friends": [17, 10, 19],
+       "organizations": [9, 15],
+       "pastEvents": [19],
+       "currentEvents": [3],
+       "pointsSystem": {
+           "rank": "Marketing",
+           "points": "947",
+           "levelThreshold": "53"
+       }
+   }
+   {
+       "userID": 3,
+       "name": {
+           "type": "Mariah Barrows",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Thu Nov 15 1973 10:19:35 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "1-823-236-5053 x4981",
+           "email": "mariahbarrows@gmail.com",
+           "website": "calculate.name",
+           "emergencyContact": {
+               "name": "Dr. Delta Daugherty",
+               "contact": "1-926-944-5468 x635"
+           }
+       },
+       "friends": [4, 12],
+       "organizations": [5, 6, 5],
+       "pastEvents": [4],
+       "currentEvents": [6],
+       "pointsSystem": {
+           "rank": "invoice",
+           "points": "251",
+           "levelThreshold": "49"
+       }
+   }
+   {
+       "userID": 4,
+       "name": {
+           "type": "Nicola Feil",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Sun Oct 08 1961 17:59:12 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "(147) 656-7727 x834",
+           "email": "nicolafeil@gmail.com",
+           "website": "object-oriented.com",
+           "emergencyContact": {
+               "name": "Bethel Krajcik IV",
+               "contact": "815-493-1463 x61472"
+           }
+       },
+       "friends": [3, 18, 15, 3],
+       "organizations": [],
+       "pastEvents": [17, 2],
+       "currentEvents": [14],
+       "pointsSystem": {
+           "rank": "Auto Loan Account",
+           "points": "552",
+           "levelThreshold": "48"
+       }
+   }
+   {
+       "userID": 5,
+       "name": {
+           "type": "Keith Zboncak",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Sat Nov 08 1980 00:33:33 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "1-552-460-0435 x646",
+           "email": "keithzboncak@gmail.com",
+           "website": "investmentaccount.biz",
+           "emergencyContact": {
+               "name": "Colleen Armstrong",
+               "contact": "(001) 999-8433 x8143"
+           }
+       },
+       "friends": [19],
+       "organizations": [17, 0, 5],
+       "pastEvents": [18, 19],
+       "currentEvents": [],
+       "pointsSystem": {
+           "rank": "Frozen",
+           "points": "294",
+           "levelThreshold": "6"
+       }
+   }
+   {
+       "userID": 6,
+       "name": {
+           "type": "Forrest Bradtke",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Sun Apr 16 1978 04:45:55 GMT+1000 (AUS Eastern Standard Time)",
+       "contact": {
+           "contactNumber": "1-928-526-8187 x5002",
+           "email": "forrestbradtke@gmail.com",
+           "website": "efficient.info",
+           "emergencyContact": {
+               "name": "Magnolia Jacobson",
+               "contact": "1-754-232-4630 x97152"
+           }
+       },
+       "friends": [14],
+       "organizations": [7, 15],
+       "pastEvents": [],
+       "currentEvents": [2],
+       "pointsSystem": {
+           "rank": "Rubber",
+           "points": "70",
+           "levelThreshold": "30"
+       }
+   }
+   {
+       "userID": 7,
+       "name": {
+           "type": "Micheal Hessel",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Thu Oct 19 1922 00:57:48 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "496-065-3616 x24776",
+           "email": "michealhessel@gmail.com",
+           "website": "circuit.biz",
+           "emergencyContact": {
+               "name": "Newell Schmeler",
+               "contact": "747.630.9435 x561"
+           }
+       },
+       "friends": [6],
+       "organizations": [],
+       "pastEvents": [16, 17],
+       "currentEvents": [],
+       "pointsSystem": {
+           "rank": "Liberia",
+           "points": "370",
+           "levelThreshold": "30"
+       }
+   }
+   {
+       "userID": 8,
+       "name": {
+           "type": "Christian Lakin",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Mon Mar 08 1948 00:02:28 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "1-398-676-2249 x2431",
+           "email": "christianlakin@gmail.com",
+           "website": "benchmark.name",
+           "emergencyContact": {
+               "name": "Donavon Monahan",
+               "contact": "(071) 531-7216"
+           }
+       },
+       "friends": [8, 13, 4, 1],
+       "organizations": [3, 13],
+       "pastEvents": [],
+       "currentEvents": [],
+       "pointsSystem": {
+           "rank": "SSL",
+           "points": "714",
+           "levelThreshold": "86"
+       }
+   }
+   {
+       "userID": 9,
+       "name": {
+           "type": "Rupert Gibson",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Sat Sep 09 1989 16:55:38 GMT+1000 (AUS Eastern Standard Time)",
+       "contact": {
+           "contactNumber": "1-889-896-3862",
+           "email": "rupertgibson@gmail.com",
+           "website": "withdrawal.biz",
+           "emergencyContact": {
+               "name": "Dr. Laurel Rowe",
+               "contact": "(336) 519-4790 x2347"
+           }
+       },
+       "friends": [6, 8, 13, 15],
+       "organizations": [2, 0, 8],
+       "pastEvents": [6],
+       "currentEvents": [1],
+       "pointsSystem": {
+           "rank": "monitoring",
+           "points": "409",
+           "levelThreshold": "91"
+       }
+   }
+   {
+       "userID": 10,
+       "name": {
+           "type": "Hildegard Flatley",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Fri May 04 1962 15:51:01 GMT+1000 (AUS Eastern Standard Time)",
+       "contact": {
+           "contactNumber": "610-338-4284",
+           "email": "hildegardflatley@gmail.com",
+           "website": "christmasisland.info",
+           "emergencyContact": {
+               "name": "Raoul Abernathy",
+               "contact": "1-947-219-3013"
+           }
+       },
+       "friends": [18, 2, 10, 1, 8],
+       "organizations": [14, 8],
+       "pastEvents": [4, 5, 1],
+       "currentEvents": [10, 18],
+       "pointsSystem": {
+           "rank": "Personal Loan Account",
+           "points": "648",
+           "levelThreshold": "52"
+       }
+   }
+   {
+       "userID": 11,
+       "name": {
+           "type": "Marilie Donnelly",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Wed Nov 22 1905 22:07:54 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "922.287.1485",
+           "email": "mariliedonnelly@gmail.com",
+           "website": "tasty.biz",
+           "emergencyContact": {
+               "name": "Beryl Batz",
+               "contact": "089.151.7892"
+           }
+       },
+       "friends": [11],
+       "organizations": [16],
+       "pastEvents": [8, 0],
+       "currentEvents": [],
+       "pointsSystem": {
+           "rank": "invoice",
+           "points": "395",
+           "levelThreshold": "5"
+       }
+   }
+   {
+       "userID": 12,
+       "name": {
+           "type": "Allen Ankunding",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Mon Jun 03 1901 13:53:15 GMT+1000 (AUS Eastern Standard Time)",
+       "contact": {
+           "contactNumber": "(399) 836-0869",
+           "email": "allenankunding@gmail.com",
+           "website": "forward.net",
+           "emergencyContact": {
+               "name": "Bartholome Sawayn",
+               "contact": "(909) 367-2670"
+           }
+       },
+       "friends": [0, 13, 14],
+       "organizations": [4, 15, 7],
+       "pastEvents": [7, 9],
+       "currentEvents": [12, 17],
+       "pointsSystem": {
+           "rank": "hacking",
+           "points": "81",
+           "levelThreshold": "19"
+       }
+   }
+   {
+       "userID": 13,
+       "name": {
+           "type": "Dayne Parisian",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Sun Dec 22 1985 14:10:14 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "1-512-560-0235 x94361",
+           "email": "dayneparisian@gmail.com",
+           "website": "plastic.com",
+           "emergencyContact": {
+               "name": "Chadd Haag",
+               "contact": "(691) 335-1362 x63795"
+           }
+       },
+       "friends": [2, 12, 17, 2],
+       "organizations": [14, 9],
+       "pastEvents": [],
+       "currentEvents": [10, 0],
+       "pointsSystem": {
+           "rank": "navigating",
+           "points": "991",
+           "levelThreshold": "9"
+       }
+   }
+   {
+       "userID": 14,
+       "name": {
+           "type": "Jeffery Muller",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Thu Nov 26 1964 03:08:38 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "1-658-431-3570 x59573",
+           "email": "jefferymuller@gmail.com",
+           "website": "violet.net",
+           "emergencyContact": {
+               "name": "Randi Spinka",
+               "contact": "(134) 879-4383"
+           }
+       },
+       "friends": [2],
+       "organizations": [6],
+       "pastEvents": [1],
+       "currentEvents": [3],
+       "pointsSystem": {
+           "rank": "Awesome Rubber Chips",
+           "points": "138",
+           "levelThreshold": "62"
+       }
+   }
+   {
+       "userID": 15,
+       "name": {
+           "type": "Beau Jenkins",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Fri Sep 08 1972 12:16:51 GMT+1000 (AUS Eastern Standard Time)",
+       "contact": {
+           "contactNumber": "819-667-3699 x441",
+           "email": "beaujenkins@gmail.com",
+           "website": "paradigms.biz",
+           "emergencyContact": {
+               "name": "Vaughn Batz",
+               "contact": "846-081-1134 x568"
+           }
+       },
+       "friends": [8, 18, 19],
+       "organizations": [18, 9, 18],
+       "pastEvents": [],
+       "currentEvents": [11, 11],
+       "pointsSystem": {
+           "rank": "Causeway",
+           "points": "445",
+           "levelThreshold": "55"
+       }
+   }
+   {
+       "userID": 16,
+       "name": {
+           "type": "Imani Ondricka",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Mon Oct 12 1992 19:15:38 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "1-738-173-6690 x7518",
+           "email": "imaniondricka@gmail.com",
+           "website": "turquoise.net",
+           "emergencyContact": {
+               "name": "Eliane Heathcote",
+               "contact": "120-561-3447 x679"
+           }
+       },
+       "friends": [11, 10, 19, 6],
+       "organizations": [2, 18],
+       "pastEvents": [13, 18, 8],
+       "currentEvents": [12, 7],
+       "pointsSystem": {
+           "rank": "De-engineered",
+           "points": "48",
+           "levelThreshold": "52"
+       }
+   }
+   {
+       "userID": 17,
+       "name": {
+           "type": "Ernesto Hessel",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Fri Jan 01 1960 02:20:45 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "916.069.3184",
+           "email": "ernestohessel@gmail.com",
+           "website": "metal.net",
+           "emergencyContact": {
+               "name": "Mason Stracke",
+               "contact": "804-655-2553 x91951"
+           }
+       },
+       "friends": [8, 12, 0],
+       "organizations": [14, 7],
+       "pastEvents": [16, 1, 12],
+       "currentEvents": [5],
+       "pointsSystem": {
+           "rank": "Kids",
+           "points": "191",
+           "levelThreshold": "9"
+       }
+   }
+   {
+       "userID": 18,
+       "name": {
+           "type": "Gaylord Kutch",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Fri Jan 10 1997 11:52:28 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "(390) 197-2437 x505",
+           "email": "gaylordkutch@gmail.com",
+           "website": "corporate.net",
+           "emergencyContact": {
+               "name": "Nathaniel Daniel",
+               "contact": "(386) 316-2405"
+           }
+       },
+       "friends": [6, 14, 0, 14, 1],
+       "organizations": [],
+       "pastEvents": [0],
+       "currentEvents": [],
+       "pointsSystem": {
+           "rank": "tan",
+           "points": "951",
+           "levelThreshold": "49"
+       }
+   }
+   {
+       "userID": 19,
+       "name": {
+           "type": "Brenda White",
+           "required": true
+       },
+       "picture": "http://lorempixel.com/640/480",
+       "dob": "Thu Nov 08 1934 19:52:11 GMT+1100 (AUS Eastern Daylight Time)",
+       "contact": {
+           "contactNumber": "840-590-2865 x5919",
+           "email": "brendawhite@gmail.com",
+           "website": "invoice.org",
+           "emergencyContact": {
+               "name": "Heather Williamson",
+               "contact": "091-274-1604"
+           }
+       },
+       "friends": [],
+       "organizations": [10],
+       "pastEvents": [18],
+       "currentEvents": [19],
+       "pointsSystem": {
+           "rank": "Belarus",
+           "points": "718",
+           "levelThreshold": "82"
+       }
+   }

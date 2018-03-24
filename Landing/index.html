@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Dashboard</title>
+    </head>
+    <h1 id="top"></h1>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col" id ='leftHandSide'>
+                    <div id='profile'>
+                        <a href="*">
+                            <img src="images/monika.jpg" width="193">
+                        </a>
+                        <a>
+                        <font size="6">Monika</font>
+                        <p>Tasks available: 2</p>
+                    </div> <br/>
+
+                    <div id='calendar'>
+                        <iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-6" id='mainSide'>
+                    <div id='smallEvent'>
+                        <a href="#">Cure small hunger</a><br/>
+                        <img src="images/eater.png" width="400">
+                        <p>Description</p>
+                    </div>
+                    <div id='bigEvent'>
+                        <a href="#">Cure big hunger</a><br/>
+                        <img src="images/" width="600">
+                        <p>Description</p>
+                    </div>
+                </div>
+
+                <div class="col" id = 'rightHandSide'>
+                    <form action="some code">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                    <div id='filter'>
+
+                        <form action="some code">
+
+                            <input type="checkbox"  id="withinRegion" unchecked />
+                            <label for="filter">Within the region</label><br/><br/>
+
+                            <label for="filter">Duration</label>
+                            <input type="range" min="1" max="100" value="50" class="slider" id="Duration">
+                            <br/>
+
+                            <label for="filter">Commitment</label>
+                            <input type="number" name="Commitment" min="0" max="23">
+                            <br/><br/>
+
+                            <input type="checkbox"  id="Water" unchecked />
+                            <label for="filter">Clean water</label><br/>
+
+                            <input type="checkbox"  id="Gender" unchecked />
+                            <label for="filter">Gender Equality</label><br/>
+
+                            <input type="checkbox"  id="Poverty" unchecked />
+                            <label for="filter">Poverty</label><br/>
+
+                            <input type="checkbox"  id="Education" unchecked />
+                            <label for="filter">Education</label><br/>
+
+                            <input type="checkbox"  id="Health" unchecked />
+                            <label for="filter">Health</label><br/>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <div id="footer">
+
+    </div>
+
+</html>

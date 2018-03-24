@@ -1,0 +1,26 @@
+Pitch - 3 minutes, followed by short Q&A
+
+60% technical
+
+Sound design of the system
+Deductions for any obvious bugs
+Achieved functionality
+What does the system actually do?
+Does this satisfy the minimum functional requirements for the proposed business model?
+UX of system
+Visceral, behavioural, reflective
+Visceral - Do we like the look and feel
+Behavioural - Is it usable/easy to understand for the targeted users
+Reflective - Is it consistent with the culture of the product
+
+40% Business Model
+
+1. Clear identification of pain points
+2. How the product/solution solves the issue
+3. Does the team touch on other competitors in the market?
+4. Is the product/solution viable?
+5. Next key steps/milestones after the hackathon
+6. Will you now focus on traction?
+7. Polish up the product/solution?
+8. Revisit your sustainable model?
+9. Overall pitch delivery - confidence
