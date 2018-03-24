@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+
+        <<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'Raleway', serif;
+            }
+        </style>
+
+        <title>Dashboard</title>
+    </head>
+    <h1 id="top"></h1>
+    <i class="fas fa-tint"></i>
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div id='profile' class="col">
+                    <a href="*">
+                        <img id="dp" src="images/jeff.jpg" width="100%">
+                    </a>
+                    <h2>Jeff</h2>
+                    <hr>
+                    <h3><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Tasks Available: 2</h3>
+
+                </div> <br/>
+                <div id='calendar'>
+                    <iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div class="col-6" id='mainSide'>
+
+                    <div id='smallEvent'>
+                        <a href="#">Cure small hunger</a><br/>
+                        <div id="img_wrapper" class="content-padding clearfix">
+                            <div class="eventImg">
+                                <img src="images/eater.png" width="100%">
+                                <div class="info-overlay">
+                                    <h3>Test</h3>
+                                    <h4>View more<i class="fa fa-arrow-right"></i></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id='bigEvent'>
+                            <a href="#">Cure big hunger</a><br/>
+                            <div id="img_wrapper" class="content-padding clearfix">
+                            <div class="eventImg">
+                                <img src="images/starEater.png" width="100%">
+                                <div class="info-overlay">
+                                    <h3>Test</h3>
+                                    <h4>View more<i class="fa fa-arrow-right"></i></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div id = 'rightHandSide'>
+                        <div id='filter'>
+                            <form action="some code">
+                                <div id="choices">
+                                    <input type="text" placeholder="Search.." name="search">
+                                    <button type="submit"><i class="fa fa-search"></i></button><br><br>
+
+                                    <i class="fa fa-hourglass-start fa-fw w3-margin-right w3-text-theme"></i>
+                                    <label for="filter">Duration</label>
+                                    <input type="range"/><hr>
+
+                                    <i class="fa fa-clock fa-fw w3-margin-right w3-text-theme"></i>
+                                    <label for="filter">Commitment</label>
+                                    <input type="number" name="Commitment" min="0" max="23"><hr>
+                                </div>
+
+                                <div id="choices1">
+                                    <i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i>
+                                    <label for="filter">Within My Region</label>
+                                    <input type="checkbox"  id="withinRegion" unchecked /><hr>
+
+                                    <i class="fa fa-tint fa-fw w3-margin-right w3-text-theme"></i>
+                                    <label for="filter">Clean water</label>
+                                    <input type="checkbox"  id="Water" unchecked /><hr>
+
+                                    <i class="fa fa-users fa-fw w3-margin-right w3-text-theme"></i>
+                                    <label for="filter">Gender Equality</label>
+                                    <input type="checkbox"  id="Gender" unchecked /><hr>
+
+                                    <i class="fa fa-money-bill-alt fa-fw w3-margin-right w3-text-theme"></i>
+                                    <label for="filter">Poverty</label>
+                                    <input type="checkbox"  id="Poverty" unchecked /><hr>
+
+                                    <i class="fa fa-book fa-fw w3-margin-right w3-text-theme"></i>
+                                    <label for="filter">Education</label>
+                                    <input type="checkbox"  id="Education" unchecked /><hr>
+
+                                    <i class="fa fa-heartbeat fa-fw w3-margin-right w3-text-theme"></i>
+                                    <label for="filter">Health</label>
+                                    <input type="checkbox"  id="Health" unchecked /><hr>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
