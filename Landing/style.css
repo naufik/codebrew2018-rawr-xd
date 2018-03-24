@@ -60,12 +60,14 @@ p{
 }
 
 #mainSide{
-  padding-top: 20px;
+  padding-top: 60px;
   left: 25%;
   box-shadow: 1px 1px 5px black;
   text-align: center;
   vertical-align: middle;
   background-color: #FFFFFF;
+  height:92.5%;
+  bottom: 0%;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -121,7 +123,7 @@ p{
 }
 
 #profile{
-  background-color: #E0E2DB;
+  background-color: #FFFFFF;
   box-shadow: 1px 1px 5px black;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
