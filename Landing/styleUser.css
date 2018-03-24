@@ -30,7 +30,7 @@ body{
   box-shadow: 1px 1px 5px black;
   height: 85%;
   width:20%;
-  left: 130px;
+  left: 5%;
   position:fixed;
   bottom:70px;
   text-align: center;
@@ -79,7 +79,7 @@ tr:not(:last-child) {
   box-shadow: 1px 1px 5px black;
   height: 85%;
   width:20%;
-  right: 130px;
+  right: 5%;
   position:fixed;
   bottom:70px;
   vertical-align: middle;
