@@ -2,21 +2,29 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var task = new Schema({
-    eventID: Number,
+    taskID: Number,
     name:  {type: String, required: true},
+    tags: [String],
     orgName: String,
-    startDate: {type: Date, default: Date.now} ,
-    endDate: Date,
+    statusAvailability: Boolean,
     desc: String,
-    shortDesc: String,
-    location: [Number], //longitude, latitude
-    commitment: {
-        desc: String,
-        unit: Number
+    contact:{
+        website: String,
+        contactNumber: String,
+        email: String,
     },
-    duration: Number,
-    signUp: String,
-    participants: [Number] //userID
+    location: {
+        longitude: Number,
+        latitude: Number,
+        city: String,
+        country: String
+    },
+    date: {
+        dateCreated: {type: Date, default: Date.now},
+        startDate: {type: Date, default: Date.now},
+        endDate: Date,
+    },
+    requirements: [String]
 });
 
 var Task = mongoose.model('Task', task);
