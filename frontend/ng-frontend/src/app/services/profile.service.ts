@@ -41,19 +41,19 @@ export class ProfileService {
 	} 
 
 	public getUserData(id: number) {
-		new Promise((resolve, reject) => {
+		return new Promise((resolve, reject) => {
 			resolve(this.data.filter((thing: User) => thing.userID === id));
 		});
 	}
 
 	public getAllUsers() {
-		new Promise((resolve, reject) => {
+		return new Promise((resolve, reject) => {
 			resolve(this.data);
 		});
 	}
 
 	public addUser(user: User) {
-		new Promise((resolve, reject) => {
+		return new Promise((resolve, reject) => {
 			this.data.push(user);
 			resolve(this.data[this.data.length - 1]);
 		});
