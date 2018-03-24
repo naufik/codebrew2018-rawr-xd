@@ -13,10 +13,10 @@
   border-radius: 60%;
   width: 60%;
   height: 60%;
+
 }
 
 #profile{
-  top: 5%;
   background-color: #bfb8ad;
   box-shadow: 3px 3px 12px black;
   -moz-border-radius: 10px;
@@ -28,10 +28,10 @@
   top: 10%;
   width: 15%;
   height: 30%;
+  padding: 1%;
 }
 
 #calendar{
-
   position: fixed;
   right: 79.5%;
   bottom: 14%;
@@ -58,9 +58,18 @@ body{
   border-style: solid;
 }
 
+h1{
+  font-size: 300%;
+}
+
+p{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 150%;
+}
 #mainSide{
-  padding: 100px;
-  height: calc(100%- 10%);
+
+  height: calc(100%-10%);
   margin: 0 auto;
   box-shadow: 3px 3px 12px black;
   text-align: center;
@@ -99,5 +108,5 @@ body{
 }
 
 #background{
-  padding-right: 100px;
+  text-align: center;
 }
