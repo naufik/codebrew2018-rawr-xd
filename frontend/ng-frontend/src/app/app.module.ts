@@ -21,7 +21,8 @@ import { UserComponent } from './user/user.component';
   ],
   providers: [
   	JSONService,
-    ProfileService
+    ProfileService,
+    EventService
   ],
   bootstrap: [AppComponent]
 })
