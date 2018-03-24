@@ -1,1 +1,229 @@
 /* You can add global styles to this file, and also import other style files */
+#top{
+	background-color: #292f36;
+	width: 100%;
+	height: 7.5%;
+	top: 0%;
+	position: fixed;
+	z-index: 1;
+}
+
+body{
+	background-color: #DDF2EB;
+}
+
+#dp{
+	-moz-border-radius: 60%;
+	-webkit-border-radius: 60%;
+	border-radius: 60%;
+	width: 60%;
+	height: 70%;
+	margin-bottom: 1em;
+}
+
+#logo{
+	position: relative;
+	border-radius: 60%;
+	left: 0;
+}
+
+#calendar{
+	position: fixed;
+	right: 77.5%;
+	bottom: 10%;
+
+}
+
+#leftHandSide{
+	background-color: #FFFFFF;
+	box-shadow: 3px 3px 12px black;
+	height:400%;
+	width:20%;
+	left: 2.25%;
+	position:fixed;
+	bottom:5%;
+	vertical-align: middle;
+
+	padding: 25px;
+}
+
+h1{
+	text-align: center;
+
+}
+
+h2{
+	font-size: 140%;
+}
+
+h3{
+	font-size: 100%;
+}
+
+
+p{
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-size: 100%;
+}
+
+#mainSide{
+	padding-top: 60px;
+	left: 25%;
+	box-shadow: 1px 1px 5px black;
+	text-align: center;
+	vertical-align: middle;
+	background-color: #FFFFFF;
+	height:92.5%;
+	bottom: 0%;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	input[type='range'] {
+		overflow: hidden;
+		width: 80px;
+		-webkit-appearance: none;
+		background-color: #F0FFCE;
+	}
+
+	input[type='range']::-webkit-slider-runnable-track {
+		height: 10px;
+		-webkit-appearance: none;
+		color: #E0E2DB;
+		margin-top: -1px;
+	}
+
+	input[type='range']::-webkit-slider-thumb {
+		width: 10px;
+		-webkit-appearance: none;
+		height: 10px;
+		cursor: ew-resize;
+		background: #434343;
+		box-shadow: -80px 0 0 80px #CCC9A1;
+	}
+
+}
+
+.img{
+	position: relative;
+	float: none;
+	width: 400px;
+	height: 400px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#rightHandSide{
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 5px black;
+	height:500px;
+	height:55%;
+	width:20%;
+	right: 2.25%;
+	position:fixed;
+	bottom:35%;
+	vertical-align: middle;
+	padding: 25px;
+}
+
+#profile{
+	background-color: #FFFFFF;
+	box-shadow: 1px 1px 5px black;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	text-align: center;
+	position:fixed;
+	right: 77.5%;
+	top: 10%;
+	width: 20%;
+	height: 35%;
+	padding: 1%;
+}
+
+#img_wrapper{
+	padding-top: 25px;
+}
+
+.eventImg{
+	width: 100%;
+
+	display: inline-block;
+	position: relative;
+}
+
+.info-overlay{
+	position: absolute;
+	background: rgba(0,0,0,0.7);
+	bottom: 0;
+	opacity: 0;
+	width: 91%;
+	height: 60%;
+	left:4.5%;
+	transition: 0.5s ease-in-out;
+}
+
+.info-overlay h3{
+	padding-top: 10%;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.3px;
+	color: #fff;
+	margin: 0px;
+}
+
+.info-overlay h4{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 13px;
+	letter-spacing: 0.3px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.eventImg:hover .info-overlay{
+	opacity: 1;
+}
+
+#choices{
+	text-align: center;
+}
+
+#choices1{
+	text-align: center;
+}
+
+#smallEvent{
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	height: 50%;
+}
+
+#bigEvent{
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 50%;
+}
+
+hr {
+	width: 80%;
+	height: 1%;
+	margin-bottom: 0.1em;
+	margin-top: 0.1em;
+}
+
+.col{
+	padding-left: 50%;
+}
+
+#titleNews{
+	position: relative;
+	top:10%;
+	right: 0%;
+	font-size: 40px;
+}
