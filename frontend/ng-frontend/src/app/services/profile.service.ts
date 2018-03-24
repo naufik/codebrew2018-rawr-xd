@@ -5,7 +5,7 @@ import * as Faker from 'faker';
 const source = "";
 
 interface User {
-	userID: number,
+	userID?: number,
 	name: string,
 	picture: string,
 	dob: Date,
@@ -40,5 +40,22 @@ export class ProfileService {
 		});
 	} 
 
+	public getUserData(id: number) {
+		new Promise((resolve, reject) => {
+			resolve(this.data.filter((thing: User) => thing.userID === id));
+		});
+	}
 
+	public getAllUsers() {
+		new Promise((resolve, reject) => {
+			resolve(this.data);
+		});
+	}
+
+	public addUser(user: User) {
+		new Promise((resolve, reject) => {
+			this.data.push(user);
+			resolve(this.data[this.data.length - 1]);
+		});
+	}
 }
