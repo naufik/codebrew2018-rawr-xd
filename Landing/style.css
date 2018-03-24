@@ -99,11 +99,15 @@ p{
 #rightHandSide{
   background-color: #E0E2DB;
   box-shadow: 1px 1px 5px black;
+<<<<<<< HEAD
   height:500px;
+=======
+  height:55%;
+>>>>>>> abd47ead51d0f40bd34999f5c851b94217152946
   width:20%;
   right: 2.25%;
   position:fixed;
-  bottom:20%;
+  bottom:35%;
   vertical-align: middle;
   padding: 25px;
 }
