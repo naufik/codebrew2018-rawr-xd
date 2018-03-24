@@ -15,8 +15,10 @@ import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { CardComponent } from './card/card.component';
+import { FeedComponent } from './feed/feed.component';
 
 @NgModule({
+<<<<<<< HEAD
 	declarations: [
 		AppComponent,
 		UserComponent,
@@ -36,5 +38,26 @@ import { CardComponent } from './card/card.component';
 		EventService
 	],
 	bootstrap: [AppComponent]
+=======
+  declarations: [
+    AppComponent,
+    UserComponent,
+    HeaderComponent,
+    SearchComponent,
+    SearchResultsComponent,
+    CardComponent,
+    FeedComponent
+  ],
+  imports: [
+    BrowserModule,
+    HttpClientModule
+  ],
+  providers: [
+  	JSONService,
+    ProfileService,
+    EventService
+  ],
+  bootstrap: [AppComponent]
+>>>>>>> origin/dynamic
 })
 export class AppModule { }
