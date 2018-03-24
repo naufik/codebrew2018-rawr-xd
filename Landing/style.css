@@ -7,9 +7,22 @@
   z-index: 5;
 }
 
+#dp{
+  -moz-border-radius: 60%;
+  -webkit-border-radius: 60%;
+  border-radius: 60%;
+  width: 60%;
+  height: 60%;
+
+}
+
 #profile{
-  background-color: #eadeda;
+  top: 5%
+  background-color: #bfb8ad;
   box-shadow: 3px 3px 12px black;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   text-align: center;
   position:fixed;
   right: 80%;
@@ -21,7 +34,7 @@
 #calendar{
 
   position: fixed;
-  right: 77.5%;
+  right: 79.5%;
   bottom: 14%;
 }
 
@@ -30,14 +43,16 @@ body{
 }
 
 #leftHandSide{
-  height:85%;
+  background-color: #bfb8ad;
+  box-shadow: 3px 3px 12px black;
+  height:890%;
   width:20%;
   left: 2.25%;
   position:fixed;
-  bottom:7.5%;
+  bottom:5%;
   vertical-align: middle;
 
-  padding: 20px;
+  padding: 25px;
 }
 
 .profile{
@@ -57,11 +72,11 @@ body{
 #rightHandSide{
   background-color: #bfb8ad;
   box-shadow: 3px 3px 12px black;
-  height:85%;
+  height:90%;
   width:20%;
   right: 2.25%;
   position:fixed;
-  bottom:7.5%;
+  bottom:5%;
   vertical-align: middle;
 
   padding: 25px;
