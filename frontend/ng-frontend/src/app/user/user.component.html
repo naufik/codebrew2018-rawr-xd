@@ -1,13 +1,6 @@
-<p>
-  Hi I am {{ user.dob | date }}.
-</p>
-
-<div *ngIf="style === 'small'">
-  <img src = "{{user.picture}}">
-  {{user.name}}
-  {{user.dob | date}}
-</div>
-
-<div *ngIf="style === 'big'">
-
-</div>
+<a href="user.html">
+	<img id="dp" src="assets/images/Jeff.jpg" width="100%" height=20px>
+</a>
+<h2>{{ user.name }}</h2>
+<hr>
+<h3><i class="fas fa-pencil-alt"></i> Tasks Available: {{ user.events.length }}</h3>
