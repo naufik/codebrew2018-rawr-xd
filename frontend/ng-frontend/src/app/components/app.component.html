@@ -1,6 +1,4 @@
-<h1 id="top">
-	<img id="logo" src="assets/images/groupIcon1.png" height="70%" width="3.5%">
-</h1>
+<header></header>
 <div class="container-fluid">
 	<div class="row">
 		<user [userId]="0" [style]="'small'">
@@ -9,8 +7,8 @@
 		<div id='calendar'>
 			<iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
 		</div>
-		<div class="col-6" id='mainSide'>
 
+		<div *ngIf="!searchMode" class="col-6" id='mainSide'>
 			<div id='smallEvent'>
 				<h1 id="titleNews">Cure small hunger</h1>
 				<div id="img_wrapper" class="content-padding clearfix">
@@ -27,7 +25,7 @@
 			</div>
 			<br/><br/>
 			<div id='smallEvent'>
-				<h1 id="titleNews" >Cure big hunger</h1>
+				<h1 id="titleNews" >Cure big hunger {{ title }}</h1>
 				<div id="img_wrapper" class="content-padding clearfix">
 					<div class="eventImg">
 						<a href="#">
@@ -41,51 +39,12 @@
 				</div>
 			</div>
 		</div>
-
+		<results class="col-6" id="mainSide" *ngIf="searchMode" [settings]="searchState">
+		</results>
 		<div class="col">
 			<div id = 'rightHandSide'>
-				<div id='filter'>
-					<form action="some code">
-						<div id="choices">
-							<input type="text" placeholder="Search.." name="search">
-							<button type="submit"><i class="fa fa-search"></i></button><br><br>
-
-							<i class="fa fa-hourglass-start fa-fw w3-margin-right w3-text-theme"></i>
-							<label for="filter">Duration</label>
-							<input type="range"/><hr>
-
-							<i class="fas fa-clock"></i>
-							<label for="filter">Commitment</label>
-							<input type="number" name="Commitment" min="0" max="23"><hr>
-						</div>
-
-						<div id="choices1">
-							<i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i>
-							<label for="filter">Within My Region</label>
-							<input type="checkbox"  id="withinRegion" unchecked /><hr>
-
-							<i class="fa fa-tint fa-fw w3-margin-right w3-text-theme"></i>
-							<label for="filter">Clean water</label>
-							<input type="checkbox"  id="Water" unchecked /><hr>
-
-							<i class="fa fa-users fa-fw w3-margin-right w3-text-theme"></i>
-							<label for="filter">Gender Equality</label>
-							<input type="checkbox"  id="Gender" unchecked /><hr>
-
-							<i class="fas fa-money-bill-alt"></i>
-							<label for="filter">Poverty</label>
-							<input type="checkbox"  id="Poverty" unchecked /><hr>
-
-							<i class="fa fa-book fa-fw w3-margin-right w3-text-theme"></i>
-							<label for="filter">Education</label>
-							<input type="checkbox"  id="Education" unchecked /><hr>
-
-							<i class="fa fa-heartbeat fa-fw w3-margin-right w3-text-theme"></i>
-							<label for="filter">Health</label>
-							<input type="checkbox"  id="Health" unchecked /><hr>
-						</div>
-					</form>
-				</div>
+				<search-filter (update)="handleSearch($event)">
+				</search-filter>
 			</div>
 		</div>
 	</div>
