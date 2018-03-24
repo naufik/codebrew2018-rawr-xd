@@ -12,8 +12,11 @@
 
         <link rel="stylesheet" href="style.css">
 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
 
-        <<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <style>
             body {
                 font-family: 'Raleway', serif;
@@ -22,8 +25,13 @@
 
         <title>Dashboard</title>
     </head>
-    <h1 id="top"></h1>
-    <i class="fas fa-tint"></i>
+    <h1 id="top">
+        <i class="fas fa-user" style="font-size:20px;"></i>
+    </h1>
+
+    <h5>
+        <img src="images/groupLogo.PNG";
+    </h5>
 
     <body>
         <div class="container-fluid">
@@ -34,7 +42,7 @@
                     </a>
                     <h2>Jeff</h2>
                     <hr>
-                    <h3><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Tasks Available: 2</h3>
+                    <h3><i class="fas fa-pencil-alt"></i> Tasks Available: 2</h3>
 
                 </div> <br/>
                 <div id='calendar'>
@@ -43,9 +51,9 @@
                 <div class="col-6" id='mainSide'>
 
                     <div id='smallEvent'>
-                        <h1 id="titleNews">Cure small hunger</h1><br/>
+                        <h1 id="titleNews">Cure small hunger</h1>
                         <div id="img_wrapper" class="content-padding clearfix">
-                            <div class="eventImg">
+                            <hr><div class="eventImg">
                                 <a href="#">
                                     <img align="middle" class="img" src="images/eater.png">
                                     <div class="info-overlay">
@@ -58,7 +66,7 @@
                     </div>
                     <br/><br/>
                     <div id='smallEvent'>
-                            <h1 id="titleNews" >Cure big hunger</h1><br/>
+                            <h1 id="titleNews" >Cure big hunger</h1>
                             <div id="img_wrapper" class="content-padding clearfix">
                             <div class="eventImg">
                                 <a href="#">
@@ -85,7 +93,7 @@
                                     <label for="filter">Duration</label>
                                     <input type="range"/><hr>
 
-                                    <i class="fa fa-clock fa-fw w3-margin-right w3-text-theme"></i>
+                                    <i class="fas fa-clock"></i>
                                     <label for="filter">Commitment</label>
                                     <input type="number" name="Commitment" min="0" max="23"><hr>
                                 </div>
@@ -103,7 +111,7 @@
                                     <label for="filter">Gender Equality</label>
                                     <input type="checkbox"  id="Gender" unchecked /><hr>
 
-                                    <i class="fa fa-money-bill-alt fa-fw w3-margin-right w3-text-theme"></i>
+                                    <i class="fas fa-money-bill-alt"></i>
                                     <label for="filter">Poverty</label>
                                     <input type="checkbox"  id="Poverty" unchecked /><hr>
 
