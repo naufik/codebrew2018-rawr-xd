@@ -36,5 +36,4 @@ export class EventService {
 			resolve(results);
 		});
 	}
-
 }
