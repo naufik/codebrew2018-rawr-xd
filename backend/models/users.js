@@ -22,7 +22,6 @@ var user = new Schema({
     pointSystem:{
         rank: String,
         points: Number,
-        levelThreshold: Number
     }
 });
 
