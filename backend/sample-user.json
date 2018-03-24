@@ -1,19 +1,19 @@
 {
+    "userID" : 1,
     "name" : "Chuanyuan Liu",
-    "volunteer": true,
-    "profile picture" : "https://upload.wikimedia.org/wikipedia/commons/5/5b/Supernumerary_rainbow_03_contrast.jpg",
-    "birthday" : "1998-05-22",
+    "picture" : "https://upload.wikimedia.org/wikipedia/commons/5/5b/Supernumerary_rainbow_03_contrast.jpg",
+    "dob" : "1998-05-22",
     "contact" : {
         "email": "chuanyuanl@union.unimelb.edu.au",
+        "phone": "111111111",
+        "website": null,
         "emergency contact" : {
             "name" : "Guo Joan",
             "phone" : "1111111"
-        },
-        "phone": "111111111",
-        "website": null
+        }
     },
     "tags": ["education"],
     "events" : ["VCE Summer School Subject Tutor"],
     "achievement" : ["VCE Winter School Subject Tutor"],
-    "points" : 50
+    "pointSystem" : {"rank": "Panda", "points": 50, "levelThreshold" : 70}
 }

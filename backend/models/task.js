@@ -4,27 +4,29 @@ var Schema = mongoose.Schema;
 var task = new Schema({
     taskID: Number,
     name:  {type: String, required: true},
-    tags: [String],
     orgName: String,
+    type: String,
     statusAvailability: Boolean,
-    desc: String,
-    contact:{
-        website: String,
-        contactNumber: String,
-        email: String,
-    },
+    tags: [String],
     location: {
         longitude: Number,
         latitude: Number,
-        city: String,
-        country: String
+        name: String,
     },
     date: {
         dateCreated: {type: Date, default: Date.now},
         startDate: {type: Date, default: Date.now},
         endDate: Date,
     },
-    requirements: [String]
+    contact:{
+        website: String,
+        contactNumber: String,
+        email: String,
+    },
+    desc: String,
+    important: string,
+    requirements: [String],
+    url: [String]
 });
 
 var Task = mongoose.model('Task', task);
