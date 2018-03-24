@@ -29,14 +29,14 @@
             <div class="row">
                 <div class="col" id ='leftHandSide'>
                     <div id='profile'>
-                        <a href="*">
-                            <img src="images/monika.jpg" width="193">
-                        </a>
                         <a>
-                        <font size="6">Monika</font>
+                            <font size="6">Jeff</font>
+                        </a>
+                        <a href="*">
+                            <img src="images/jeff.jpg" width="100%">
+                        </a>
                         <p>Tasks available: 2</p>
                     </div> <br/>
-
                     <div id='calendar'>
                         <iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
                     </div>
@@ -45,10 +45,9 @@
                 <div class="col-6" id='mainSide'>
                     <div id='smallEvent'>
                         <a href="#">Cure small hunger</a><br/>
-                        <img src="images/eater.png" width="400">
+                        <img src="images/eater.png" width="100%">
                         <p>Description</p>
                     </div>
-                    <i class="fa fa-wheelchair" style="font-size:48px;"></i>
                     <div id='bigEvent'>
                         <a href="#">Cure big hunger</a><br/>
                         <img src="images/" width="600">
@@ -60,36 +59,38 @@
                     <form action="some code">
                         <input type="text" placeholder="Search.." name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
+                    </form><br/>
                     <div id='filter'>
 
                         <form action="some code">
+                            <div id="choices">
+                                <input type="checkbox"  id="withinRegion" unchecked />
+                                <label for="filter">Within the region</label><br/><br/>
 
-                            <input type="checkbox"  id="withinRegion" unchecked />
-                            <label for="filter">Within the region</label><br/><br/>
+                                <label for="filter">Duration</label>
+                                <input type="range" min="1" max="100" value="50" class="slider" id="Duration">
+                                <br/><br/>
 
-                            <label for="filter">Duration</label>
-                            <input type="range" min="1" max="100" value="50" class="slider" id="Duration">
-                            <br/>
+                                <label for="filter">Commitment</label>
+                                <input type="number" name="Commitment" min="0" max="23">
+                                <br/><br/><br/>
+                            </div>
+                            <div id="choices1">
+                                <input type="checkbox"  id="Water" unchecked />
+                                <label for="filter">Clean water</label><br/>
 
-                            <label for="filter">Commitment</label>
-                            <input type="number" name="Commitment" min="0" max="23">
-                            <br/><br/>
+                                <input type="checkbox"  id="Gender" unchecked />
+                                <label for="filter">Gender Equality</label><br/>
 
-                            <input type="checkbox"  id="Water" unchecked />
-                            <label for="filter">Clean water</label><br/>
+                                <input type="checkbox"  id="Poverty" unchecked />
+                                <label for="filter">Poverty</label><br/>
 
-                            <input type="checkbox"  id="Gender" unchecked />
-                            <label for="filter">Gender Equality</label><br/>
+                                <input type="checkbox"  id="Education" unchecked />
+                                <label for="filter">Education</label><br/>
 
-                            <input type="checkbox"  id="Poverty" unchecked />
-                            <label for="filter">Poverty</label><br/>
-
-                            <input type="checkbox"  id="Education" unchecked />
-                            <label for="filter">Education</label><br/>
-
-                            <input type="checkbox"  id="Health" unchecked />
-                            <label for="filter">Health</label><br/>
+                                <input type="checkbox"  id="Health" unchecked />
+                                <label for="filter">Health</label><br/>
+                            </div>
                         </form>
                     </div>
                 </div>
