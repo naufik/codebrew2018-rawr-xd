@@ -2,7 +2,7 @@ module.exports = {
   "content": [
     {
       "userID": 0,
-      "name": "Jarret Kovacek",
+      "name": "Jeff Jefferson",
       "picture": "https://i.imgur.com/nDQWdHH.png",
       "dob": "Mon Dec 08 1980 00:04:13 GMT+1100 (AUS Eastern Daylight Time)",
       "contact": {
