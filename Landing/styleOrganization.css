@@ -22,12 +22,14 @@
 
 h1{
   font-size: 300%;
+  text-align: center;
 }
 
 p{
   padding-top: 5%;
   padding-bottom: 5%;
   font-size: 150%;
+  text-align: center;
 }
 
 #mainSide{

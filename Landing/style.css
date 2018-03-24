@@ -89,11 +89,11 @@ p{
 #rightHandSide{
   background-color: #E0E2DB;
   box-shadow: 1px 1px 5px black;
-  height:60%;
+  height:55%;
   width:20%;
   right: 2.25%;
   position:fixed;
-  bottom:20%;
+  bottom:35%;
   vertical-align: middle;
   padding: 25px;
 }
