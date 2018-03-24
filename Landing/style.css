@@ -13,11 +13,10 @@
   border-radius: 60%;
   width: 60%;
   height: 60%;
-
 }
 
 #profile{
-  top: 5%
+  top: 5%;
   background-color: #bfb8ad;
   box-shadow: 3px 3px 12px black;
   -moz-border-radius: 10px;
@@ -61,7 +60,7 @@ body{
 
 #mainSide{
   padding: 100px;
-  height: calc(100%-10%);
+  height: calc(100%- 10%);
   margin: 0 auto;
   box-shadow: 3px 3px 12px black;
   text-align: center;
