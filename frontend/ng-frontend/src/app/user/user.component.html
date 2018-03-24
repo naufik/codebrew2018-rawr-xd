@@ -1,6 +1,14 @@
-<a href="user.html">
-	<img id="dp" src="assets/images/Jeff.jpg" width="100%" height=20px>
-</a>
-<h2>{{ user.name }}</h2>
-<hr>
-<h3><i class="fas fa-pencil-alt"></i> Tasks Available: {{ user.events.length }}</h3>
+<div *ngIf="style === 'small'">
+	<div id='profile' class="col">
+		<a href="user.html">
+			<img id="dp" src="assets/images/Jeff.jpg" width="100%" height=20px>
+		</a>
+		<h2>{{ user.name }}</h2>
+		<hr>
+		<h3><i class="fas fa-pencil-alt"></i> Tasks Available: {{ user.events.length }}</h3>
+	</div>
+</div>
+
+<div *ngIf="style === 'large'">
+
+</div>
