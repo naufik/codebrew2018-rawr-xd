@@ -2,21 +2,16 @@ import { Injectable } from '@angular/core';
 import { JSONService } from './textdb.service';
 import { ProfileService } from './profile.service';
 
-const source = "";
+import * as DB from '../orgdb';
 
 @Injectable()
 export class OrganizationService {
-	public json: JSONService;
-	public users: ProfileService;
 	public data: any[];
+	public users: ProfileService;
 
 	constructor(client: JSONService, users: ProfileService) {
-		this.json = client;
+		this.data = DB.content;
 		this.users = users;
-
-		this.json.read(source).then((data: any) => {
-			this.data = data.content;
-		});
 	}
 
 	public getAll() {
@@ -28,9 +23,8 @@ export class OrganizationService {
 	public getByID(id: number) {
 		return new Promise((resolve, reject) => {
 			let contentList = this.data.filter(org => org.orgID === id);
-
 			if (contentList.length > 0) {
-				contentList[0];	
+				resolve(contentList[0]);	
 			} else {
 				reject(new Error("Cannot find organization by ID"));
 			}
@@ -43,9 +37,5 @@ export class OrganizationService {
 				return data.filter(user => org.members.includes(user.userID));
 			});
 		});
-	}
-
-	public getEvents(id: number) {
-		return this.users
 	}
 }

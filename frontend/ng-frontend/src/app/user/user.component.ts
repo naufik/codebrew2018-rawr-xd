@@ -10,6 +10,7 @@ import { ProfileService } from '../services/profile.service';
 export class UserComponent implements OnInit {
   private service: ProfileService;
   @Input() public userId: number;
+  @Input() public style: string;
   public user;
 
   constructor(service: ProfileService) {

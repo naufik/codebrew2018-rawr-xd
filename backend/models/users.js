@@ -9,7 +9,11 @@ var user = new Schema({
     contact: {
         contactNumber: String,
         email: String,
+<<<<<<< HEAD
         website: String,
+=======
+        website: String
+>>>>>>> abd47ead51d0f40bd34999f5c851b94217152946
         emergencyContact: {
             name: String,
             contactNumber: String,
@@ -22,7 +26,10 @@ var user = new Schema({
     pointSystem:{
         rank: String,
         points: Number,
+<<<<<<< HEAD
+=======
         levelThreshold: Number
+>>>>>>> abd47ead51d0f40bd34999f5c851b94217152946
     }
 });
 

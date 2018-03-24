@@ -1,0 +1,264 @@
+module.exports = {
+    "content": [
+     {
+         "orgID": 0,
+         "name": "Stark - Okuneva",
+         "desc": "auxiliary Regional Auto Loan Account",
+         "contact": {
+             "website": "stark-okuneva.com",
+             "contactNumber": "1-932-440-1869 x59071",
+             "email": "contact@stark-okuneva.com"
+         },
+         "members": [16, 10, 14, 9],
+         "orgLocation": "Port Abagail",
+         "events": [7, 16]
+     },
+     {
+         "orgID": 2,
+         "name": "Pouros Group",
+         "desc": "haptic deposit",
+         "contact": {
+             "website": "pourosgroup.com",
+             "contactNumber": "113.886.8866 x637",
+             "email": "contact@pourosgroup.com"
+         },
+         "members": [3, 9, 7, 13, 18],
+         "orgLocation": "Glenberg",
+         "events": [12, 4]
+     },
+     {
+         "orgID": 1,
+         "name": "Rolfson - Goodwin",
+         "desc": "harness",
+         "contact": {
+             "website": "rolfson-goodwin.com",
+             "contactNumber": "(844) 343-1706 x15243",
+             "email": "contact@rolfson-goodwin.com"
+         },
+         "members": [13, 10, 3, 6],
+         "orgLocation": "Lylaberg",
+         "events": [9, 11, 5, 4]
+     },
+     {
+         "orgID": 4,
+         "name": "Stiedemann, Reynolds and Gislason",
+         "desc": "Armenian Dram",
+         "contact": {
+             "website": "stiedemann,reynoldsandgislason.com",
+             "contactNumber": "1-068-536-9806 x5414",
+             "email": "contact@stiedemann,reynoldsandgislason.com"
+         },
+         "members": [18, 12],
+         "orgLocation": "Rutherfordton",
+         "events": [15]
+     },
+     {
+         "orgID": 7,
+         "name": "Labadie - Nikolaus",
+         "desc": "Chips",
+         "contact": {
+             "website": "labadie-nikolaus.com",
+             "contactNumber": "(803) 894-2035",
+             "email": "contact@labadie-nikolaus.com"
+         },
+         "members": [0, 3, 4, 0, 9],
+         "orgLocation": "Port Lorenzoshire",
+         "events": [8, 16]
+     },
+     {
+         "orgID": 5,
+         "name": "Feest - Huel",
+         "desc": "benchmark",
+         "contact": {
+             "website": "feest-huel.com",
+             "contactNumber": "073-861-1554",
+             "email": "contact@feest-huel.com"
+         },
+         "members": [4, 7, 15, 19, 19],
+         "orgLocation": "Lake Kirsten",
+         "events": [2]
+     },
+     {
+         "orgID": 8,
+         "name": "Wolf, Hahn and Zulauf",
+         "desc": "Plastic",
+         "contact": {
+             "website": "wolf,hahnandzulauf.com",
+             "contactNumber": "(850) 655-9071 x187",
+             "email": "contact@wolf,hahnandzulauf.com"
+         },
+         "members": [10, 10, 4],
+         "orgLocation": "Hahnville",
+         "events": [15]
+     },
+     {
+         "orgID": 9,
+         "name": "Labadie, Raynor and Watsica",
+         "desc": "Norway",
+         "contact": {
+             "website": "labadie,raynorandwatsica.com",
+             "contactNumber": "601-542-3705 x6358",
+             "email": "contact@labadie,raynorandwatsica.com"
+         },
+         "members": [14, 18],
+         "orgLocation": "Nolantown",
+         "events": [8, 0]
+     },
+     {
+         "orgID": 11,
+         "name": "Baumbach, Sauer and Little",
+         "desc": "USB",
+         "contact": {
+             "website": "baumbach,sauerandlittle.com",
+             "contactNumber": "(942) 317-3084 x94725",
+             "email": "contact@baumbach,sauerandlittle.com"
+         },
+         "members": [],
+         "orgLocation": "Lake Danborough",
+         "events": [4]
+     },
+     {
+         "orgID": 12,
+         "name": "Hyatt and Sons",
+         "desc": "Ohio",
+         "contact": {
+             "website": "hyattandsons.com",
+             "contactNumber": "548.329.4414 x8433",
+             "email": "contact@hyattandsons.com"
+         },
+         "members": [2, 0],
+         "orgLocation": "North Haylie",
+         "events": [3, 5]
+     },
+     {
+         "orgID": 10,
+         "name": "Langworth - Heathcote",
+         "desc": "Principal",
+         "contact": {
+             "website": "langworth-heathcote.com",
+             "contactNumber": "948.855.9337",
+             "email": "contact@langworth-heathcote.com"
+         },
+         "members": [12, 10],
+         "orgLocation": "Vincenzoshire",
+         "events": [17, 14, 19]
+     },
+     {
+         "orgID": 13,
+         "name": "Fisher, Blick and Runte",
+         "desc": "auxiliary olive",
+         "contact": {
+             "website": "fisher,blickandrunte.com",
+             "contactNumber": "611.054.0456",
+             "email": "contact@fisher,blickandrunte.com"
+         },
+         "members": [14, 13, 4, 16],
+         "orgLocation": "Leonardville",
+         "events": [16]
+     },
+     {
+         "orgID": 15,
+         "name": "Parisian and Sons",
+         "desc": "Maryland Berkshire transmitter",
+         "contact": {
+             "website": "parisianandsons.com",
+             "contactNumber": "(005) 978-8687 x9299",
+             "email": "contact@parisianandsons.com"
+         },
+         "members": [3, 3],
+         "orgLocation": "Antonettastad",
+         "events": []
+     },
+     {
+         "orgID": 16,
+         "name": "Kuhic, VonRueden and Gerhold",
+         "desc": "Colorado reboot Money Market Account",
+         "contact": {
+             "website": "kuhic,vonruedenandgerhold.com",
+             "contactNumber": "187-592-8655",
+             "email": "contact@kuhic,vonruedenandgerhold.com"
+         },
+         "members": [4],
+         "orgLocation": "Lillyville",
+         "events": [0, 11, 18]
+     },
+     {
+         "orgID": 17,
+         "name": "Hegmann - Beer",
+         "desc": "New York Tuna program",
+         "contact": {
+             "website": "hegmann-beer.com",
+             "contactNumber": "1-220-376-7423",
+             "email": "contact@hegmann-beer.com"
+         },
+         "members": [11, 7, 16, 13],
+         "orgLocation": "Spinkabury",
+         "events": [17, 18, 16, 0]
+     },
+     {
+         "orgID": 18,
+         "name": "Lehner - Luettgen",
+         "desc": "AI Awesome Wooden Chicken",
+         "contact": {
+             "website": "lehner-luettgen.com",
+             "contactNumber": "1-944-521-2204",
+             "email": "contact@lehner-luettgen.com"
+         },
+         "members": [14],
+         "orgLocation": "Trudieville",
+         "events": [7, 15, 9, 19]
+     },
+     {
+         "orgID": 19,
+         "name": "Ledner Inc",
+         "desc": "methodical Steel",
+         "contact": {
+             "website": "lednerinc.com",
+             "contactNumber": "(315) 743-1290 x1143",
+             "email": "contact@lednerinc.com"
+         },
+         "members": [],
+         "orgLocation": "Rhodaborough",
+         "events": [11]
+     },
+     {
+         "orgID": 14,
+         "name": "Schroeder Group",
+         "desc": "Personal Loan Account",
+         "contact": {
+             "website": "schroedergroup.com",
+             "contactNumber": "919.921.6039",
+             "email": "contact@schroedergroup.com"
+         },
+         "members": [17, 18, 17],
+         "orgLocation": "Greenholtland",
+         "events": [4]
+     },
+     {
+         "orgID": 6,
+         "name": "Murray Inc",
+         "desc": "Alabama",
+         "contact": {
+             "website": "murrayinc.com",
+             "contactNumber": "(937) 039-6356",
+             "email": "contact@murrayinc.com"
+         },
+         "members": [11, 8],
+         "orgLocation": "South Ola",
+         "events": []
+     },
+     {
+         "orgID": 3,
+         "name": "Heaney and Sons",
+         "desc": "Bedfordshire",
+         "contact": {
+             "website": "heaneyandsons.com",
+             "contactNumber": "730-659-3128 x91634",
+             "email": "contact@heaneyandsons.com"
+         },
+         "members": [14, 9],
+         "orgLocation": "Veldamouth",
+         "events": []
+     }
+  ]
+}

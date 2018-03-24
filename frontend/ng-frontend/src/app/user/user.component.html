@@ -1,3 +1,13 @@
 <p>
   Hi I am {{ user.dob | date }}.
 </p>
+
+<div *ngIf="style === 'small'">
+  <img src = "{{user.picture}}">
+  {{user.name}}
+  {{user.dob | date}}
+</div>
+
+<div *ngIf="style === 'big'">
+
+</div>
