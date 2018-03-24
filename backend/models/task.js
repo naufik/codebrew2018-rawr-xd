@@ -1,7 +1,7 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var event = new Schema({
+var task = new Schema({
     eventID: Number,
     name:  {type: String, required: true},
     orgName: String,
@@ -19,5 +19,5 @@ var event = new Schema({
     participants: [Number] //userID
 });
 
-var Event = mongoose.model('Event', event);
-module.exports=Event;
+var Task = mongoose.model('Task', task);
+module.exports=Task;
