@@ -14,6 +14,6 @@ export class TaskService {
 	public getAll() {
 		return new Promise((resolve, reject) => {
 			resolve(this.data);
-		})
+		});
 	}
 }
