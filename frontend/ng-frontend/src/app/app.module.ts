@@ -17,24 +17,24 @@ import { SearchResultsComponent } from './search-results/search-results.componen
 import { CardComponent } from './card/card.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    UserComponent,
-    HeaderComponent,
-    SearchComponent,
-    SearchResultsComponent,
-    CardComponent
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    FormsModule
-  ],
-  providers: [
-  	JSONService,
-    ProfileService,
-    EventService
-  ],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		UserComponent,
+		HeaderComponent,
+		SearchComponent,
+		SearchResultsComponent,
+		CardComponent
+	],
+	imports: [
+		BrowserModule,
+		HttpClientModule,
+		FormsModule
+	],
+	providers: [
+		JSONService,
+		ProfileService,
+		EventService
+	],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
