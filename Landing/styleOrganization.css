@@ -20,6 +20,9 @@
   padding: 25px;
 }
 
+h1{
+  text-align: center;
+}
 
 hr {
     width: 80%;
@@ -99,6 +102,12 @@ h3{
   left: 35%;
   bottom: 78%;
   z-index: 5;
+}
+
+#companylogo{
+  position: relative;
+  border-radius: 60%;
+  right: 0.01%;
 }
 
 #googlemap{

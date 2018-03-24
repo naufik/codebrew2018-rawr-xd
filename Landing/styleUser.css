@@ -4,12 +4,7 @@
   height: 7.5%;
   top: 0%;
   position: fixed;
-<<<<<<< HEAD
-  z-index: 5;
-  top:0%;
-=======
   z-index: 10;
->>>>>>> 2b559765cf6ce947e361ff109ed18e7e3d81ff31
 }
 
 #profile{
@@ -21,14 +16,20 @@
   height: 220px;
 }
 
-h1{
-
-}
-
 #calendar{
   position: fixed;
   left: 35px;
   bottom: 100px;
+}
+
+h1{
+  text-align: center;
+}
+
+#logo{
+  position: relative;
+  border-radius: 60%;
+  right: 0.55%;
 }
 
 body{
