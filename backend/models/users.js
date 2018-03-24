@@ -6,8 +6,9 @@ var user = new Schema({
     name:  {type: String, required: true},
     dob: Date,
     desc: String,
-    friends: [Number],
-    organizations: [Number],
+    friends: [Number], //userID
+    organizations: [Number], //orgID
+    pastEvents: [Number], //eventID
     pointSystem:{
         rank: String,
         currentXP: Number,

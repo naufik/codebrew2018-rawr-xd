@@ -2,15 +2,18 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var event = new Schema({
+    eventID: Number,
     name:  {type: String, required: true},
+    orgName: String,
     startDate: {type: Date, default: Date.now} ,
     endDate: Date,
     desc: String,
-    location: [Number],
+    location: [Number], //longitude, latitude
     commitment: {
         desc: String,
         unit: Number
     },
     duration: Number,
-    signUp: String
+    signUp: String,
+    participants: [Number] //userID
 });
