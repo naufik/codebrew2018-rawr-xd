@@ -11,6 +11,7 @@ import { EventComponent } from './event/event.component';
 import { OrganizationComponent } from './organization/organization.component';
 import { ProfileWidgetComponent } from './profile-widget/profile-widget.component';
 import { FilterComponent } from './filter/filter.component';
+import { TaskComponent } from './task/task.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { FilterComponent } from './filter/filter.component';
     EventComponent,
     OrganizationComponent,
     ProfileWidgetComponent,
-    FilterComponent
+    FilterComponent,
+    TaskComponent
   ],
   imports: [
     BrowserModule
