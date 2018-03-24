@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+	
+	title = 'app';
+	public searchState = {query: ""};
+	public searchMode = false;
+
+	public handleSearch(event) {
+		this.title = event.query;
+		this.searchState = event;
+		this.searchMode = (this.searchState.query !== '');
+	}
 }
