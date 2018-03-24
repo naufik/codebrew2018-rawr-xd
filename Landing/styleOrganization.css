@@ -7,12 +7,8 @@
   z-index: 5;
 }
 
-a{
-  text-align: center;
-}
-
 #leftHandSide{
-  background-color: #bfb8ad;
+  background-color: #c0d6df;
   box-shadow: 1px 1px 5px black;
   height:70%;
   width:20%;
@@ -35,15 +31,14 @@ p{
 }
 
 #mainSide{
-  background-color: #bfb8ad;
+  background-color: #c0d6df;
   box-shadow: 1px 1px 5px black;
   height:90%;
   width:70%;
   left: 27.5%;
   bottom:5%;
   vertical-align: middle;
-
-  padding: 25px;
+  padding: 40px;
 }
 
 h2{
@@ -51,29 +46,36 @@ h2{
   bottom: 50%;
 }
 
-#footer{
-  background-color: #292f36;
-  position: fixed;
-  width: 100%;
-  bottom: 0%;
-  height: 5%;
-}
 
 a{
   padding-left: 100px;
+  text-align: center;
+}
+
+body{
+  background-image: url('images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .button{
+    left: 45%;
     background-color: #4CAF50;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 2% 3%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
     cursor: pointer;
+}
+
+h3{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 100%;
 }
 
 #map{
