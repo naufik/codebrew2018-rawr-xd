@@ -25,8 +25,27 @@ export class OrganizationService {
 		});
 	}
 
-	public getMembersOf(id: number) {
-		return 
+	public getByID(id: number) {
+		return new Promise((resolve, reject) => {
+			let contentList = this.data.filter(org => org.orgID === id);
+
+			if (contentList.length > 0) {
+				contentList[0];	
+			} else {
+				reject(new Error("Cannot find organization by ID"));
+			}
+		});
 	}
 
+	public getMembers(id: number) {
+		return this.users.getAllUsers().then((data: any[]) => {
+			this.getByID(id).then((org: { members?: number[] } ) => {
+				return data.filter(user => org.members.includes(user.userID));
+			});
+		});
+	}
+
+	public getEvents(id: number) {
+		return this.users
+	}
 }
