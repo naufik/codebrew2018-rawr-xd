@@ -14,7 +14,9 @@ describe('ProfileService', () => {
   }));
 
   it('should has 100 users', inject([ProfileService], (service: ProfileService) => {
-    console.log(service.getAllUsers())
+    service.getAllUsers().then((data) => {
+    	console.log(data);
+    })
     expect(service.getAllUsers());
   }));
 });
