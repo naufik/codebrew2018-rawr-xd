@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 /** Services */
 import { ProfileService } from './services/profile.service';
-import { JSONService } from './services/textdb.service';
+
 import { AppComponent } from './components/app.component';
 import { UserComponent } from './user/user.component';
 import { EventComponent } from './event/event.component';
@@ -27,10 +27,7 @@ import { TaskComponent } from './task/task.component';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [
-    ProfileService,
-    JSONService
-  ],
+  providers: [ProfileService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
