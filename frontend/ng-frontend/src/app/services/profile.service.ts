@@ -1,5 +1,7 @@
 import { Injectable } from '@angular/core';
 import { JSONService } from './textdb.service';
+import { EventService } from './event.service';
+
 import * as Faker from 'faker';
 
 import * as DB from '../userdb';
@@ -20,8 +22,7 @@ interface User {
 	},
 	friends: number[],
 	organizations: number[],
-	pastEvents: number[],
-	currentEvents: number[],
+	events: number[],
 	points: {
 		rank: string,
 		points: number
@@ -30,12 +31,12 @@ interface User {
 
 @Injectable()
 export class ProfileService {
-	private json: JSONService;
 	private data;
+	private events: EventService;
 
-	constructor(client: JSONService) {
-		this.json = client;
+	constructor(events: EventService) {
 		this.data = DB.content;
+		this.events = events;
 	} 
 
 	public getUserData(id: number) {
@@ -55,5 +56,11 @@ export class ProfileService {
 			this.data.push(user);
 			resolve(this.data[this.data.length - 1]);
 		});
+	}
+
+	public getEventHistory(id: number) {
+		return this.getUserData(id).then((user: User) =>{
+				return this.events.getByIds(user.events);
+			});
 	}
 }
