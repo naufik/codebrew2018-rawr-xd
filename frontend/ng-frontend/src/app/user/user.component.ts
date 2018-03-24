@@ -7,17 +7,12 @@ import { ProfileService } from '../services/profile.service';
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.css']
 })
-export class UserComponent implements OnInit {
+export class UserComponent {
 private service;
-private user;
-  constructor(service: ProfileService) {
-    this.service = service;
-  }
+private data;
 
-  ngOnInit() {
-    this.service.getUser(69).then((u) => {
-      this.user = u;
-    })
+constructor(service: ProfileService) {
+    this.service = service;
   }
 
 }
