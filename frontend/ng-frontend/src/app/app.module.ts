@@ -13,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
 import { SearchComponent } from './search/search.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { CardComponent } from './card/card.component';
+import { FeedComponent } from './feed/feed.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CardComponent } from './card/card.component';
     HeaderComponent,
     SearchComponent,
     SearchResultsComponent,
-    CardComponent
+    CardComponent,
+    FeedComponent
   ],
   imports: [
     BrowserModule,
