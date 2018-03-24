@@ -1,4 +1,4 @@
-import { Component, Output, EventEmitter, OnInit } from '@angular/core';
+import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
 import { ProfileService } from '../services/profile.service';
 
 @Component({
@@ -8,20 +8,17 @@ import { ProfileService } from '../services/profile.service';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-private service: ProfileService;
-public user;
+  private service: ProfileService;
+  @Input() public userId: number;
+  public user;
 
   constructor(service: ProfileService) {
     this.service = service;
   }
 
   ngOnInit() {
-    this.service.getAllUsers().then((u) => {
+    this.service.getUserData(this.userId).then((u) => {
       this.user = u;
     })
-  }
-
-  public userData() {
-    return JSON.stringify(this.user);
   }
 }

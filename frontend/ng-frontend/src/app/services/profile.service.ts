@@ -35,12 +35,12 @@ export class ProfileService {
 
 	constructor(client: JSONService) {
 		this.json = client;
-		this.data = DB
+		this.data = DB.content;
 	} 
 
 	public getUserData(id: number) {
 		return new Promise((resolve, reject) => {
-			resolve(this.data.filter((thing: User) => thing.userID === id));
+			resolve(this.data.filter((thing: User) => thing.userID === id)[0]);
 		});
 	}
 
