@@ -41,6 +41,10 @@ body{
 
 }
 
+a{
+  text-align: center;
+}
+
 #leftHandSide{
   background-color: #bfb8ad;
   box-shadow: 3px 3px 12px black;
@@ -67,6 +71,7 @@ p{
   padding-bottom: 5%;
   font-size: 150%;
 }
+
 #mainSide{
 
   height: calc(100%-10%);
@@ -107,6 +112,3 @@ p{
   height: 5%;
 }
 
-#background{
-  text-align: center;
-}
