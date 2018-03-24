@@ -1,24 +1,36 @@
 {
+    "eventID": 1,
     "name": "VCE Summer School Subject Tutor",
     "author" : "University of Melbourne Student Union",
     "volunteer": true,
+    "tags": ["education"],
     "type" : "tutoring",
-    "open": true,
-    "location": "Melbourne",
-    "date": {
-        "dateCreated" : "2018-03-24",
-        "applicationClose": null,
-        "applicationOpen": null,
-        "commetment": "6 hours over 2 weeks",
-        "average commetment": 0.43
-    },
+    "Availability": true,
     "contact": {
         "email": "summerschool@union.unimelb.edu.au",
         "phone": "(03)83448204",
         "website": "https://umsu.unimelb.edu.au/getinvolved/summerschool/volunteer/"
     },
-    "tags": ["education"],
-    "description": "Subject tutors are responsible for tutoring a class generally containing between 10 and 15 students in a particular VCE subject. The minimum time commitment is six lessons (an hour each) spread out over the two weeks, in addition to the time needed to plan and prepare classes beforehand. Applicants for subject tutor must be friendly and approachable, with strong leadership and social skills. Also essential is a good academic record and detailed knowledge of the subject area: we recommend having studied the subject or equivalent at least at first-year university level. Additional information on the curriculum for each of the subjects can be found on the Victorian Curriculum and Assessment Authority website’s VCE Study Design page.",
+    "location": {
+        "longitude": -37.7963 ,
+        "latitude": 144.9614,
+        "name": "University of Melbourne"
+    },
+    "date": {
+        "dateCreated" : "2018-03-24",
+        "applicationClose": null,
+        "applicationOpen": null
+    },
+    "desc": "Subject tutors are responsible for tutoring a class generally containing between 10 and 15 students in a particular VCE subject. The minimum time commitment is six lessons (an hour each) spread out over the two weeks, in addition to the time needed to plan and prepare classes beforehand. Applicants for subject tutor must be friendly and approachable, with strong leadership and social skills. Also essential is a good academic record and detailed knowledge of the subject area: we recommend having studied the subject or equivalent at least at first-year university level. Additional information on the curriculum for each of the subjects can be found on the Victorian Curriculum and Assessment Authority website’s VCE Study Design page.",
+    "commetment": "6 hours over 2 weeks",
+    "avgCommetment": 0.43,
+    "duration": 30,
+    "tasks": [1],
+    "participants": {
+        "max": 10,
+        "number": 1,
+        "membersID": [1]
+    },
     "important": "All tutors are expected to attend tutor camp, or, if that is not possible, tutor training day. Details of tutor training will be released when applications open.",
     "url": ["http://www.vcaa.vic.edu.au/Pages/vce/studies/index.aspx", "https://umsu.unimelb.edu.au/wp-content/uploads/2017/07/Subject-Tutor-PD-2018-proposed-edit.pdf"]
 }
