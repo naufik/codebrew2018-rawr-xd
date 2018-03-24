@@ -17,7 +17,6 @@
 }
 
 #profile{
-
   background-color: #bfb8ad;
   box-shadow: 3px 3px 12px black;
   -moz-border-radius: 10px;
@@ -33,7 +32,6 @@
 }
 
 #calendar{
-
   position: fixed;
   right: 79.5%;
   bottom: 14%;
@@ -60,8 +58,17 @@ body{
   border-style: solid;
 }
 
+h1{
+  font-size: 300%;
+}
+
+p{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: 150%;
+}
 #mainSide{
-  padding: 100px;
+
   height: calc(100%-10%);
   margin: 0 auto;
   box-shadow: 3px 3px 12px black;
@@ -101,5 +108,5 @@ body{
 }
 
 #background{
-  padding-right: 100px;
+  text-align: center;
 }
