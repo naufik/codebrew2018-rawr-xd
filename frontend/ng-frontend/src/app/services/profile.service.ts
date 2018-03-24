@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { JSONService } from './textdb.service';
 import * as Faker from 'faker';
 
-const source = "";
+const source = "../userdb.json";
 
 interface User {
 	userID?: number,
