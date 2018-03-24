@@ -19,9 +19,8 @@
 #calendar{
   position: fixed;
   right: 77.5%;
-  bottom: 12%;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
+  bottom: 10%;
+
 }
 
 #leftHandSide{
@@ -52,27 +51,9 @@ p{
   font-size: 100%;
 }
 
-<<<<<<< HEAD
-=======
-
-img {
-  opacity: 1.0;
-  transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -webkit-transition: opacity 1s ease-in-out;
-}
-img:hover {
-  opacity: 0.3;
-  transition: opacity .55s ease-in-out;
-  -moz-transition: opacity .55s ease-in-out;
-  -webkit-transition: opacity .55s ease-in-out;
-}​
-
-
->>>>>>> da0c8e80747e93303a4d84b199e2723df480dff0
 #mainSide{
   padding-top: 20px;
-  left: 50%;
+  left: 25%;
   box-shadow: 1px 1px 5px black;
   text-align: center;
   vertical-align: middle;
@@ -108,11 +89,11 @@ img:hover {
 #rightHandSide{
   background-color: #E0E2DB;
   box-shadow: 1px 1px 5px black;
-  height:55%;
+  height:60%;
   width:20%;
   right: 2.25%;
   position:fixed;
-  bottom:35%;
+  bottom:20%;
   vertical-align: middle;
   padding: 25px;
 }
@@ -149,7 +130,6 @@ img:hover {
   visibility: hidden;
   opacity: 0;
 
-<<<<<<< HEAD
   /* transition effect. not necessary */
   transition: opacity .2s, visibility .2s;
 }
@@ -157,14 +137,6 @@ img:hover {
 .img__wrap:hover .img__description {
   visibility: visible;
   opacity: 1;
-=======
-#choices{
-  text-align: center;
-}
-
-#choices1{
-  text-align: center;
->>>>>>> da0c8e80747e93303a4d84b199e2723df480dff0
 }
 
 #img_wrapper{
