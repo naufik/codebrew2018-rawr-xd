@@ -12,6 +12,7 @@
 
         <link rel="stylesheet" href="style.css">
 
+
         <<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
         <style>
             body {
@@ -26,18 +27,18 @@
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div class="col" id ='leftHandSide'>
-                    <div id='profile'>
-
-                        <a href="*">
-                            <img id="dp" src="images/jeff.jpg" width="100%">
-                        </a><br/>
-                        <font size="6">Jeff</font>
-                        <p>Tasks available: 2</p>
-                    </div> <br/>
-                    <div id='calendar'>
-                        <iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="250" height="250" frameborder="0" scrolling="no"></iframe>
-                    </div>
+                <div class="col">
+                <div id='profile'>
+                    <a href="*">
+                        <img id="dp" src="images/jeff.jpg" width="100%">
+                    </a>
+                    <h2>Jeff</h2>
+                    <hr>
+                    <h3><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Tasks Available: 2</h3>
+                </div> <br/>
+                <div id='calendar'>
+                    <iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="250" height="250" frameborder="0" scrolling="no"></iframe>
+                </div>
                 </div>
 
                 <div class="col-6" id='mainSide'>
@@ -47,13 +48,14 @@
                         <p>Description</p>
                     </div>
                     <div id='bigEvent'>
-                        <a href="#">Cure big hunger</a><br/>
-                        <img src="images/starEater.png" width="80%">
-                        <p>Description</p>
+                            <a href="#">Cure big hunger</a><br/>
+                            <img src="images/starEater.png" width="80%">
+                            <p>Description</p>
                     </div>
                 </div>
 
-                <div class="col" id = 'rightHandSide'>
+                <div class="col">
+                <div id = 'rightHandSide'>
                     <form action="some code">
                         <input type="text" placeholder="Search.." name="search">
                         <button type="submit"><i class="fa fa-search"></i></button>
@@ -64,9 +66,8 @@
                             <div id="choices">
                                 <input type="checkbox"  id="withinRegion" unchecked />
                                 <label for="filter">Within the region</label><br/><br/>
-
                                 <label for="filter">Duration</label>
-                                <input type="range" min="1" max="100" value="50" class="slider" id="Duration">
+                                <input type="range"/>
                                 <br/><br/>
 
                                 <label for="filter">Commitment</label>
@@ -92,12 +93,11 @@
                         </form>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </body>
+</div>
 
-    <div id="footer">
-
-    </div>
 
 </html>
