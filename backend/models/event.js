@@ -37,6 +37,7 @@ var event = new Schema({
     },
     duration: Number,
     signUp: String,
+    tasks: [Number], //taskID
     participants: [Number], //userID
     requirements: [String]
 });
