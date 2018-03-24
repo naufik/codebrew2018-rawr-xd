@@ -16,13 +16,14 @@ export class ProfileService {
 	
 	constructor() { 
 		for(let i = 0; i < 100; ++i) {
+			let gender: Number = Math.floor(Math.random() * 1.99);
 			this.data.push({
 				userid: i,
 				name: {
-					first: Faker.name.firstName(),
-					last: Faker.name.lastName()
+					first: Faker.name.firstName(gender),
+					last: Faker.name.lastName(gender)
 				},
-				register: Faker.date.past()
+				register: Faker.date.past();
 			});
 		}
 	}
