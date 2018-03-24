@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+/** Services */
+import { ProfileService } from './services/profile.service';
+
 
 import { AppComponent } from './components/app.component';
 import { UserComponent } from './user/user.component';
@@ -22,7 +25,7 @@ import { FilterComponent } from './filter/filter.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ProfileService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
