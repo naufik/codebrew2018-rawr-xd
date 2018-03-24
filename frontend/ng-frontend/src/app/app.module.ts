@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http'
 /* Import Services */
 import { JSONService } from './services/textdb.service';
 import { ProfileService } from './services/profile.service';
+import { EventService } from './services/event.service';
 
 import { AppComponent } from './components/app.component';
 import { UserComponent } from './user/user.component';
@@ -20,7 +21,8 @@ import { UserComponent } from './user/user.component';
   ],
   providers: [
   	JSONService,
-    ProfileService
+    ProfileService,
+    EventService
   ],
   bootstrap: [AppComponent]
 })

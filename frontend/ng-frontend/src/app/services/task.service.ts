@@ -1,29 +1,19 @@
 import { Injectable } from '@angular/core';
 import { JSONService } from './textdb.service';
 
-const path = "";
+import * as DB from '../taskdb';
 
 @Injectable()
 export class TaskService {
-	private json: JSONService;
+	public data: any[];
 
-	constructor(service: JSONService) {
-		this.json = service;
+	constructor() {
+		this.data = DB.content;
 	}
 
 	public getAll() {
-		return this.json.read(path).then((data: any) => {
-			let tasks: any[] = data.content;
-			return tasks;
-		});
-	}
-
-	public tasksFor(id: number) {
-		this.getAll()
-			.then((tasks) => {
-				return tasks.filter((task) => {
-					return true;	
-				});
-			});
+		return new Promise((resolve, reject) => {
+			resolve(this.data);
+		})
 	}
 }
