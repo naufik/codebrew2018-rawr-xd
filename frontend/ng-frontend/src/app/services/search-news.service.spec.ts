@@ -13,3 +13,6 @@ describe('SearchNewsService', () => {
     expect(service).toBeTruthy();
   }));
 });
+
+
+{{ filter_expression | filter : expression : comparator : anyPropertyKey}}
