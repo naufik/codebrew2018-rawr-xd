@@ -3,7 +3,7 @@ module.exports = {
     {
       "userID": 0,
       "name": "Jarret Kovacek",
-      "picture": "http://lorempixel.com/640/480",
+      "picture": "https://i.imgur.com/nDQWdHH.png",
       "dob": "Mon Dec 08 1980 00:04:13 GMT+1100 (AUS Eastern Daylight Time)",
       "contact": {
         "contactNumber": "(969) 460-5273",
