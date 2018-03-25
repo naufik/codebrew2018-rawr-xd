@@ -7,6 +7,8 @@
   z-index: 10;
 }
 
+
+
 #profile{
   background-color: #bfb8ad;
   left: 80px;
@@ -26,10 +28,31 @@ h1{
   text-align: center;
 }
 
+h2{
+  font-size: 60%;
+}
+
+h3{
+  font-size: 100%;
+}
+
+h4{
+  font-size: 40%;
+}
+
+
+
 #logo{
   position: relative;
   border-radius: 60%;
   right: 0.55%;
+}
+
+hr.middle {
+  width: 80%;
+  height: 1%;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
 }
 
 body{
@@ -50,6 +73,10 @@ body{
   top:65px;
 }
 
+individualOption{
+  font-size: 10%;
+}
+
 #options{
   font-size: 150%;
 }
@@ -58,12 +85,12 @@ tr:not(:last-child) {
   border-bottom: 1px solid black; }
 
 #mainSide{
-  height: 75%;
+  height: 80%;
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
   padding: 20px;
-  top: 45px;
+  top: 40px;
   font-size: 200%
 }
 
@@ -74,6 +101,10 @@ tr:not(:last-child) {
 
 #dp{
   border-radius: 50%;
+}
+
+p.middle{
+  font-size: 20%;
 }
 
 #name{
