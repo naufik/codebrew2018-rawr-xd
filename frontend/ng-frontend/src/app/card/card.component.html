@@ -1,11 +1,11 @@
-<h2 id="titleNews" [style.margin-top]="'100px'">{{ event.name }}</h2>
+<h2 id="titleNews" [style.margin-top]="'30px'">{{ event.name }}</h2>
 {{event.date.dateCreated | date}} - {{event.duration}} days
 <div id="img_wrapper" class="content-padding clearfix">
 	<hr><div class="eventImg">
 		<a href="organization.html">
 			<img align="middle" class="img" src="{{ event.picture }}">
 			<div class="info-overlay">
-				<h3>{{ event.desc }}</h3>
+				<h3>{{ event.description }}</h3>
 				<h4>View more...<i class="fa fa-arrow-right"></i></h4>
 			</div>
 		</a>
