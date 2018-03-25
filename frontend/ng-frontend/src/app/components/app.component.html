@@ -2,44 +2,43 @@
 <div *ngIf="profileView" class="container-fluid">
 	<div class="row">
 		<div class="col" id ='leftHandSide'>
-			<!--<div id = 'options'>-->
-				<!--<div id = 'individualOption'>-->
-					<!--<a href="index.html">-->
-						<!--<img src="images/home.png" width="25" height = "25">-->
-						<!--Home-->
-					<!--</a><hr>-->
-				<!--</div>-->
-				<!--<div id = 'individualOption1'>-->
-
-					<!--<a href="something">-->
-						<!--<img src="images/friends.png" width="30" height = "30">-->
-						<!--Friends list-->
-					<!--</a><hr>-->
-				<!--</div>-->
-				<!--<div id = 'individualOption2'>-->
-					<!--<a href="something">-->
-						<!--<img src="images/settings.png" width="30" height = "30">-->
-						<!--Settings-->
-					<!--</a><hr>-->
-				<!--</div>-->
-				<!--<div id = 'individualOption3'>-->
-					<!--<p>Rank</p>-->
-					<!--<img src="images/panda.png" width="50" height = "50"></br>-->
-					<!--<p><img src="images/medal.png" width="30" height = "30">Points: 69</p>-->
-					<!--<hr>-->
-				<!--</div>-->
-				<!--<div>-->
-					<!--<div id = 'individualOption4'>-->
-						<!--<i class="fas fa-phone"></i><h4>Contact Number: 081573521219</h4>-->
-						<!--<i class="fas fa-at"></i><h4>E-Mail: tunaman@google.com</h4>-->
-						<!--<i class="fas fa-link"></i><h4>Website: notasmellyfish.com</h4>-->
-					<!--</div>-->
-				<!--</div>-->
-			<!--</div>-->
+			<div id = 'options'>
+				<div id = 'individualOption'>
+					<a href="index.html">
+						<img src="assets/images/home.png" width="25" height = "25">
+						Home
+					</a><hr>
+				</div>
+				<div id = 'individualOption1'>
+					<a href="something">
+						<img src="assets/images/friends.png" width="30" height = "30">
+						Friends list
+					</a><hr>
+				</div>
+				<div id = 'individualOption2'>
+					<a href="something">
+						<img src="assets/images/settings.png" width="30" height = "30">
+						Settings
+					</a><hr>
+				</div>
+				<div id = 'individualOption3'>
+					<p>Rank</p>
+					<img src="assets/images/panda.png" width="50" height = "50">
+					<p><img src="assets/images/medal.png" width="30" height = "30">Points: 69</p>
+					<hr>
+				</div>
+				<div>
+					<div id = 'individualOption4'>
+						<i class="fas fa-phone"></i><h4>Contact Number: {{userwrapper.user.contact.contactNumber}}</h4>
+						<i class="fas fa-at"></i><h4>E-Mail: {{userwrapper.user.contact.email}}</h4>
+						<i class="fas fa-link"></i><h4>Website: {{userwrapper.user.contact.website}}</h4>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="col-6" id='mainSide'>
-			<user [userId]="0" [style]="'large'"></user>
+			<user [userId]="0" [style]="'large'" #userwrapper></user>
 		</div>
 
 		<div class="col" id = 'rightHandSide'>
