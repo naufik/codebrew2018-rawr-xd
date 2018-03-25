@@ -11,7 +11,7 @@ import { EventService } from '../services/event.service';
 export class ParticipationComponent implements OnInit {
 
 	@Input()
-	public person;
+	public userId;
 
 	public data;
 	private profiles: ProfileService;
@@ -20,9 +20,13 @@ export class ParticipationComponent implements OnInit {
 		this.profiles = service;
 	}
 
+	public rand() {
+		return Math.floor(Math.random()*20);
+	}
+
 	ngOnInit() {
-		this.profiles.getEventHistory(this.person).then((data: any[]) => {
-			this.data = data.filter(thing => new Date(thing.date) < new Date());
+		this.profiles.getEventHistory(this.userId).then((data: any[]) => {
+			this.data = data.filter(thing => true);
 		});
 	}
 }
