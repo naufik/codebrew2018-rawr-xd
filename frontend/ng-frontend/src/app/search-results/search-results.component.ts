@@ -4,7 +4,7 @@ import { EventService } from '../services/event.service';
 interface SearchOptions {
 	query: '',
 	region: boolean,
-	tag: null
+	tag: -1
 }
 
 
@@ -33,7 +33,7 @@ export class SearchResultsComponent implements OnInit {
 		return this.data.filter((thing: { name: string }) =>
 			thing.name.toLowerCase().includes(t.query.toLowerCase()))
 		.filter(((thing1: { category : number }) =>
-			true));
+			thing1.category === t.tag || t.tag === -1));
 	}
 
 }
