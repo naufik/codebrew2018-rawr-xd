@@ -21,7 +21,7 @@ export class ParticipationComponent implements OnInit {
 	}
 
 	public rand() {
-		return Math.floor(Math.random()*20);
+		return 10 + Math.floor(Math.random()*40);
 	}
 
 	ngOnInit() {
