@@ -8,108 +8,132 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+        <link href="YourCss.css" rel="stylesheet" type="text/css" />
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="styleUser.css">
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
 
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
 
+
+        <title>Dashboard</title>
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
         <style>
             body {
                 font-family: 'Raleway', serif;
             }
         </style>
-
-        <title>Dashboard</title>
     </head>
+
     <h1 id="top">
         <img id="logo" src="images/groupIcon1.PNG" height="70%" width="3.5%">
     </h1>
+    <h5>
+
+    </h5>
 
     <body>
         <div class="container-fluid">
             <div class="row">
-                <div id='profile' class="col">
-                    <a href="user.html">
-                        <img id="dp" src="images/jeff.jpg" width="100%" height=20px>
-                    </a>
-                    <h2>Jeff</h2>
-                    <hr>
-                    <h3><i class="fas fa-pencil-alt"></i> Tasks Available: 2</h3>
+                <div class="col" id ='leftHandSide'>
+                    <div id = 'options'>
+                        <div id = 'individualOption'>
+                            <a href="index.html">
+                                <img src="images/home.png" width="25" height = "25">
+                                Home
+                            </a><hr>
+                        </div>
+                        <div id = 'individualOption1'>
 
-                </div> <br/>
-                <div id='calendar'>
-                    <iframe src="https://calendar.google.com/calendar/b/2/embed?showTitle=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=America%2FNew_York" style="border-width:0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
-                </div>
-                <div class="col-6" id='mainSide'>
-
-                    <div id='smallEvent'>
-                        <h1 id="titleNews">Cure small hunger</h1><hr>
-                        <div id="img_wrapper" class="content-padding clearfix">
-                            <div class="eventImg">
-                                <a href="organization.html">
-                                    <img align="middle" class="img" src="images/eater.png">
-                                    <div class="info-overlay">
-                                    <h3>Test</h3>
-                                    <h4>View more<i class="fa fa-arrow-right"></i></h4>
-                                </div>
-                                </a>
+                            <a href="something">
+                            <img src="images/friends.png" width="30" height = "30">
+                            Friends list
+                            </a><hr>
+                        </div>
+                        <div id = 'individualOption2'>
+                            <a href="something">
+                                <img src="images/settings.png" width="30" height = "30">
+                                Settings
+                            </a><hr>
+                        </div>
+                        <div id = 'individualOption3'>
+                            <p>Rank</p>
+                            <a href="RankingsPage.html">
+                            <img src="images/panda.png" width="50" height = "50"></br>
+                            <p><img src="images/medal.png" width="30" height = "30">Points: 69</p>
+                            </a>
+                            <hr>
+                        </div>
+                        <div>
+                            <div id = 'individualOption4'>
+                                <i class="fas fa-phone"></i><h4>Contact Number: 081573521219</h4>
+                                <i class="fas fa-at"></i><h4>E-Mail: tunaman@google.com</h4>
+                                <i class="fas fa-link"></i><h4>Website: notasmellyfish.com</h4>
                             </div>
                         </div>
+
                     </div>
-                    <br/><br/>
                 </div>
 
-                <div class="col">
-                    <div id = 'rightHandSide'>
-                        <div id='filter'>
-                            <form action="some code">
-                                <div id="choices">
-                                    <input type="text" placeholder="Search.." name="search">
-                                    <button type="submit"><i class="fa fa-search"></i></button><br><br>
+                <div class="col-6" id='mainSide'>
+                    <div id='sideMain'>
+                        <div id='mainProfile'><hr class="middle">
+                            <img id = 'dp' src="images/jeff.jpg" width="200" height="200"></br>
+                            <div id='name'>
+                                <h3>Jeff Bezos</h3><hr class="middle">
+                            </div>
+                        </div>
+                        <div id='bigEvent'>
+                            <h2>"Never gonna give you up, never gonna let you down, never gonna run around and desert you."</h2>
+                        </div>
+                    </div>
+                    <div id='sideMain'>
+                        <p>Events Participated</p>
+                    </div>
 
-                                    <i class="fa fa-hourglass-start fa-fw w3-margin-right w3-text-theme"></i>
-                                    <label for="filter">Duration</label>
-                                    <input type="range"/><hr>
+                </div>
+                <div class="col" id = 'rightHandSide'>
+                    <div class="ex3">
+                        <div id = 'feed'>
+                            <h3>Feed</h3>
+                            <hr>
+                            <div id='feedPost'>
+                                <img id = 'feedPic' src="images/monika.jpg" width="50" height="50">      <b>Just Monica</b>
+                                <p>Just Monica has completed "Let's build houses in Asmat, Papua". She earned 20 points</p>
+                                <p align="right">3 hours ago</p>
+                            </div>
+                            <hr>
+                            <div id='feedPost'>
+                                <img id = 'feedPic' src="images/adventureGuy.png" width="50" height="50">      <b>Robert D.</b>
+                                <p>Robert D. has signed up for "Solving hunger in South Africa, one child at a time". Come join him!</p>
+                                <p align="right">5 hours ago</p>
+                            </div>
+                            <hr>
+                            <div id='feedPost'>
+                                <img id = 'feedPic' src="images/Budi.png" width="50" height="50">      <b>Budimulia</b>
+                                <p>Budimulia just leveled up to the Lion rank, congratulate him!</p>
+                                <p align="right">8 hours ago</p>
+                            </div>
+                            <hr>
+                            <div id='feedPost'>
+                                <img id = 'feedPic' src="images/who.png" width="50" height="50">      <b>World Health Org.</b>
+                                <p>The World Health Organisation just posted an event: "African Programme for Onchocerciasis Control". Click to read more.</p>
+                                <p align="right">9 hours ago</p>
+                            </div>
+                            <hr>
 
-                                    <i class="fas fa-clock"></i>
-                                    <label for="filter">Commitment</label>
-                                    <input type="number" name="Commitment" min="0" max="23"><hr>
-                                </div>
 
-                                <div id="choices1">
-                                    <i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i>
-                                    <label for="filter">Within My Region</label>
-                                    <input type="checkbox"  id="withinRegion" unchecked /><hr>
-
-                                    <i class="fa fa-tint fa-fw w3-margin-right w3-text-theme"></i>
-                                    <label for="filter">Clean water</label>
-                                    <input type="checkbox"  id="Water" unchecked /><hr>
-
-                                    <i class="fa fa-users fa-fw w3-margin-right w3-text-theme"></i>
-                                    <label for="filter">Gender Equality</label>
-                                    <input type="checkbox"  id="Gender" unchecked /><hr>
-
-                                    <i class="fas fa-money-bill-alt"></i>
-                                    <label for="filter">Poverty</label>
-                                    <input type="checkbox"  id="Poverty" unchecked /><hr>
-
-                                    <i class="fa fa-book fa-fw w3-margin-right w3-text-theme"></i>
-                                    <label for="filter">Education</label>
-                                    <input type="checkbox"  id="Education" unchecked /><hr>
-
-                                    <i class="fa fa-heartbeat fa-fw w3-margin-right w3-text-theme"></i>
-                                    <label for="filter">Health</label>
-                                    <input type="checkbox"  id="Health" unchecked /><hr>
-                                </div>
-                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </body>
+
+    </div>
+
 </html>
