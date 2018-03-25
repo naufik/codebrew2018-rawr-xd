@@ -117,6 +117,8 @@ p{
 #rightHandSide{
   background-color: #FFFFFF;
   box-shadow: 1px 1px 5px black;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
   height:500px;
   height:55%;
   width:20%;
