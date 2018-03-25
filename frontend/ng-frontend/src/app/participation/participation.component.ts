@@ -3,8 +3,7 @@ import { ProfileService } from '../services/profile.service';
 import { EventService } from '../services/event.service';
 
 @Component({
-  selector: 'participation.
-  ',
+  selector: 'participation',
   templateUrl: './participation.component.html',
   providers: [ ProfileService ],
   styleUrls: ['./participation.component.css']
