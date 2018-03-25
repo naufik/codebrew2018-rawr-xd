@@ -24,7 +24,7 @@ module.exports = {
 			  "contactNumber": "1-904-518-8878 x7066",
 			  "email": "contact@ledner-lind.com"
 		  },
-		  "desc": "if(child.hungry()){child.feed()};",
+		  "desc": "Provide food for children suffering from malnutrition",
 		  "commitment": "2 days/week",
 		  "avgCommitment": 9,
 		  "duration": 4,
@@ -59,7 +59,7 @@ module.exports = {
 			  "contactNumber": "801.719.3258",
 			  "email": "contact@huelsandsons.com"
 		  },
-		  "desc": "if(whale.endangered()){whale.save()};",
+		  "desc": "Raise awareness against whale hunting",
 		  "commitment": "3 days/week",
 		  "avgCommitment": 2,
 		  "duration": 5,
@@ -72,7 +72,7 @@ module.exports = {
 	  },
 	  {
 		  "eventID": 2,
-		  "name": "Fundamental middleware",
+		  "name": "Help old people",
 		  "orgName": "Hagenes, Russel and Halvorson",
 		  "type": "Zloty",
 		  "picture": "http://lorempixel.com/640/480/animals",
@@ -94,7 +94,7 @@ module.exports = {
 			  "contactNumber": "619.860.1053 x17416",
 			  "email": "contact@hagenesrusselandhalvorson.com"
 		  },
-		  "desc": "partnerships",
+		  "desc": "Provide care for the elderly at retirement homes",
 		  "commitment": "4 days/week",
 		  "avgCommitment": 11,
 		  "duration": 11,
@@ -103,11 +103,11 @@ module.exports = {
 			  "number": 1,
 			  "members": [6]
 		  },
-		  "url": "hagenesrusselandhalvorson.com/fundamentalmiddleware"
+		  "url": "hagenesrusselandhalvorson.com/helpoldpeople"
 	  },
 	  {
 		  "eventID": 3,
-		  "name": "navigating Shirt Czech Koruna",
+		  "name": "End world hunger",
 		  "orgName": "Dibbert, Balistreri and Schoen",
 		  "type": "Unbranded",
 		  "picture": "http://lorempixel.com/640/480/nature",
@@ -129,7 +129,7 @@ module.exports = {
 			  "contactNumber": "578.184.4143 x316",
 			  "email": "contact@dibbertbalistreriandschoen.com"
 		  },
-		  "desc": "mindshare Metal",
+		  "desc": "If the world is hungry, stop it",
 		  "commitment": "4 days/week",
 		  "avgCommitment": 1,
 		  "duration": 6,
@@ -138,11 +138,11 @@ module.exports = {
 			  "number": 5,
 			  "members": [4, 16, 18, 6, 12]
 		  },
-		  "url": "dibbertbalistreriandschoen.com/navigatingshirtczechkoruna"
+		  "url": "dibbertbalistreriandschoen.com/endworldhunger"
 	  },
 	  {
 		  "eventID": 4,
-		  "name": "Berkshire scale",
+		  "name": "Build a village",
 		  "orgName": "Runolfsdottir, Turcotte and Bauch",
 		  "type": "Re-engineered",
 		  "picture": "http://lorempixel.com/640/480/cats",
@@ -164,7 +164,7 @@ module.exports = {
 			  "contactNumber": "608-187-5454",
 			  "email": "contact@runolfsdottirturcotteandbauch.com"
 		  },
-		  "desc": "Awesome Rustic",
+		  "desc": "Build housing for poor families affected by natural disasters",
 		  "commitment": "5 days/week",
 		  "avgCommitment": 9,
 		  "duration": 2,
@@ -173,11 +173,11 @@ module.exports = {
 			  "number": 7,
 			  "members": [2, 18, 13, 11, 13, 13, 12]
 		  },
-		  "url": "runolfsdottirturcotteandbauch.com/berkshirescale"
+		  "url": "runolfsdottirturcotteandbauch.com/buildavillage"
 	  },
 	  {
 		  "eventID": 5,
-		  "name": "Outdoors Bedfordshire",
+		  "name": "Stop bullying",
 		  "orgName": "Dare Group",
 		  "type": "Home",
 		  "picture": "http://lorempixel.com/640/480/technics",
@@ -199,7 +199,7 @@ module.exports = {
 			  "contactNumber": "428-111-0087",
 			  "email": "contact@daregroup.com"
 		  },
-		  "desc": "Haiti Refined",
+		  "desc": "Stop kids from bullying each other",
 		  "commitment": "4 days/week",
 		  "avgCommitment": 17,
 		  "duration": 11,
@@ -208,11 +208,11 @@ module.exports = {
 			  "number": 1,
 			  "members": [16]
 		  },
-		  "url": "daregroup.com/outdoorsbedfordshire"
+		  "url": "daregroup.com/stopbullying"
 	  },
 	  {
 		  "eventID": 6,
-		  "name": "Idaho",
+		  "name": "Save the animals",
 		  "orgName": "Thiel, Hessel and Grimes",
 		  "type": "USB",
 		  "picture": "http://lorempixel.com/640/480/cats",
@@ -234,7 +234,7 @@ module.exports = {
 			  "contactNumber": "929.109.0959 x93293",
 			  "email": "contact@thielhesselandgrimes.com"
 		  },
-		  "desc": "synthesize",
+		  "desc": "Save animals from abuse or endangerment",
 		  "commitment": "6 days/week",
 		  "avgCommitment": 4,
 		  "duration": 12,
@@ -243,11 +243,11 @@ module.exports = {
 			  "number": 2,
 			  "members": [1, 1]
 		  },
-		  "url": "thielhesselandgrimes.com/idaho"
+		  "url": "thielhesselandgrimes.com/savetheanimals"
 	  },
 	  {
 		  "eventID": 7,
-		  "name": "haptic",
+		  "name": "Stop fires",
 		  "orgName": "Turcotte, Robel and Hayes",
 		  "type": "compressing",
 		  "picture": "http://lorempixel.com/640/480/transport",
@@ -269,7 +269,7 @@ module.exports = {
 			  "contactNumber": "1-398-240-3484 x506",
 			  "email": "contact@turcotterobelandhayes.com"
 		  },
-		  "desc": "program Jewelery compress",
+		  "desc": "Raise awareness for taking precautions against bushfires",
 		  "commitment": "1 days/week",
 		  "avgCommitment": 7,
 		  "duration": 1,
@@ -278,11 +278,11 @@ module.exports = {
 			  "number": 1,
 			  "members": [18]
 		  },
-		  "url": "turcotterobelandhayes.com/haptic"
+		  "url": "turcotterobelandhayes.com/stopfires"
 	  },
 	  {
 		  "eventID": 8,
-		  "name": "Outdoors",
+		  "name": "Save rhinos",
 		  "orgName": "Green, West and Homenick",
 		  "type": "navigate",
 		  "picture": "http://lorempixel.com/640/480/animals",
@@ -304,7 +304,7 @@ module.exports = {
 			  "contactNumber": "1-208-727-2420 x11954",
 			  "email": "contact@greenwestandhomenick.com"
 		  },
-		  "desc": "quantifying EXE Trace",
+		  "desc": "Raise awareness against rhino poaching",
 		  "commitment": "3 days/week",
 		  "avgCommitment": 10,
 		  "duration": 3,
@@ -313,11 +313,11 @@ module.exports = {
 			  "number": 1,
 			  "members": [9]
 		  },
-		  "url": "greenwestandhomenick.com/outdoors"
+		  "url": "greenwestandhomenick.com/saverhinos"
 	  },
 	  {
 		  "eventID": 9,
-		  "name": "transmit deposit Colorado",
+		  "name": "Stop pollution",
 		  "orgName": "Gaylord, Kunze and Smith",
 		  "type": "Planner",
 		  "picture": "http://lorempixel.com/640/480/transport",
@@ -339,7 +339,7 @@ module.exports = {
 			  "contactNumber": "(648) 687-3161 x511",
 			  "email": "contact@gaylordkunzeandsmith.com"
 		  },
-		  "desc": "Hong Kong incentivize Specialist",
+		  "desc": "Clean your local neighbourhood",
 		  "commitment": "5 days/week",
 		  "avgCommitment": 18,
 		  "duration": 3,
@@ -348,11 +348,11 @@ module.exports = {
 			  "number": 2,
 			  "members": [11, 2]
 		  },
-		  "url": "gaylordkunzeandsmith.com/transmitdepositcolorado"
+		  "url": "gaylordkunzeandsmith.com/stoppollution"
 	  },
 	  {
 		  "eventID": 10,
-		  "name": "Markets",
+		  "name": "Stop piracy",
 		  "orgName": "Gleason Inc",
 		  "type": "Graphic Interface",
 		  "picture": "http://lorempixel.com/640/480/cats",
@@ -374,7 +374,7 @@ module.exports = {
 			  "contactNumber": "301.676.9283 x851",
 			  "email": "contact@gleasoninc.com"
 		  },
-		  "desc": "Shores Movies strategy",
+		  "desc": "Stop people from stealing intellectual property",
 		  "commitment": "7 days/week",
 		  "avgCommitment": 13,
 		  "duration": 9,
@@ -383,11 +383,11 @@ module.exports = {
 			  "number": 1,
 			  "members": [3]
 		  },
-		  "url": "gleasoninc.com/markets"
+		  "url": "gleasoninc.com/stoppiracy"
 	  },
 	  {
 		  "eventID": 11,
-		  "name": "bandwidth Vatu sky blue",
+		  "name": "Give money",
 		  "orgName": "Stark, Pfannerstill and Funk",
 		  "type": "cross-media",
 		  "picture": "http://lorempixel.com/640/480/nature",
@@ -409,7 +409,7 @@ module.exports = {
 			  "contactNumber": "(050) 428-2428 x47397",
 			  "email": "contact@starkpfannerstillandfunk.com"
 		  },
-		  "desc": "bus",
+		  "desc": "Donate money to those who are financially in need",
 		  "commitment": "2 days/week",
 		  "avgCommitment": 2,
 		  "duration": 11,
@@ -422,7 +422,7 @@ module.exports = {
 	  },
 	  {
 		  "eventID": 12,
-		  "name": "Cotton Lead",
+		  "name": "Provide shelter",
 		  "orgName": "Abshire, Schoen and Cummerata",
 		  "type": "Buckinghamshire",
 		  "picture": "http://lorempixel.com/640/480/technics",
@@ -444,7 +444,7 @@ module.exports = {
 			  "contactNumber": "359.494.7843",
 			  "email": "contact@abshireschoenandcummerata.com"
 		  },
-		  "desc": "impactful",
+		  "desc": "Provide housing for homeless people, refugees, or those affected by natural disasters",
 		  "commitment": "6 days/week",
 		  "avgCommitment": 1,
 		  "duration": 7,
@@ -453,11 +453,11 @@ module.exports = {
 			  "number": 3,
 			  "members": [13, 10, 4]
 		  },
-		  "url": "abshireschoenandcummerata.com/cottonlead"
+		  "url": "abshireschoenandcummerata.com/provideshelter"
 	  },
 	  {
 		  "eventID": 13,
-		  "name": "Congo bluetooth",
+		  "name": "Teach kids",
 		  "orgName": "Crist, Abshire and Ziemann",
 		  "type": "architectures",
 		  "picture": "http://lorempixel.com/640/480/transport",
@@ -479,7 +479,7 @@ module.exports = {
 			  "contactNumber": "966-589-7905 x0578",
 			  "email": "contact@cristabshireandziemann.com"
 		  },
-		  "desc": "Brazilian Real regional orange",
+		  "desc": "Mentor children in poor areas",
 		  "commitment": "3 days/week",
 		  "avgCommitment": 6,
 		  "duration": 2,
@@ -488,11 +488,11 @@ module.exports = {
 			  "number": 5,
 			  "members": [5, 0, 8, 15, 7]
 		  },
-		  "url": "cristabshireandziemann.com/congobluetooth"
+		  "url": "cristabshireandziemann.com/teachkids"
 	  },
 	  {
 		  "eventID": 14,
-		  "name": "Dalasi",
+		  "name": "Stop smoking",
 		  "orgName": "Gulgowski, Hirthe and Beahan",
 		  "type": "Hollow",
 		  "picture": "http://lorempixel.com/640/480/technics",
@@ -514,7 +514,7 @@ module.exports = {
 			  "contactNumber": "1-854-364-1943 x8434",
 			  "email": "contact@gulgowskihirtheandbeahan.com"
 		  },
-		  "desc": "port",
+		  "desc": "Tell people to stop smoking",
 		  "commitment": "3 days/week",
 		  "avgCommitment": 7,
 		  "duration": 1,
@@ -523,11 +523,11 @@ module.exports = {
 			  "number": 1,
 			  "members": [18]
 		  },
-		  "url": "gulgowskihirtheandbeahan.com/dalasi"
+		  "url": "gulgowskihirtheandbeahan.com/stopsmoking"
 	  },
 	  {
 		  "eventID": 15,
-		  "name": "Corners quantify Handcrafted Plastic Keyboard",
+		  "name": "Free the bees",
 		  "orgName": "Watsica - Hegmann",
 		  "type": "lime",
 		  "picture": "http://lorempixel.com/640/480/city",
@@ -549,7 +549,7 @@ module.exports = {
 			  "contactNumber": "103.264.1767 x512",
 			  "email": "contact@watsica-hegmann.com"
 		  },
-		  "desc": "Soap",
+		  "desc": "Raise awareness against bee farms and human monopolization of honey",
 		  "commitment": "5 days/week",
 		  "avgCommitment": 2,
 		  "duration": 2,
@@ -558,11 +558,11 @@ module.exports = {
 			  "number": 1,
 			  "members": [1]
 		  },
-		  "url": "watsica-hegmann.com/cornersquantifyhandcraftedplastickeyboard"
+		  "url": "watsica-hegmann.com/freethebees"
 	  },
 	  {
 		  "eventID": 16,
-		  "name": "redefine Rustic Concrete",
+		  "name": "Cook for the poor",
 		  "orgName": "Kunde - O'Connell",
 		  "type": "Delaware",
 		  "picture": "http://lorempixel.com/640/480/business",
@@ -584,7 +584,7 @@ module.exports = {
 			  "contactNumber": "1-914-998-8134 x736",
 			  "email": "contact@kunde-oconnell.com"
 		  },
-		  "desc": "Isle deposit Specialist",
+		  "desc": "Cook food for poverty-stricken areas",
 		  "commitment": "7 days/week",
 		  "avgCommitment": 4,
 		  "duration": 9,
@@ -593,11 +593,11 @@ module.exports = {
 			  "number": 3,
 			  "members": [16, 13, 14]
 		  },
-		  "url": "kunde-oconnell.com/redefinerusticconcrete"
+		  "url": "kunde-oconnell.com/cookforthepoor"
 	  },
 	  {
 		  "eventID": 17,
-		  "name": "multi-byte knowledge base Rand Loti",
+		  "name": "Clean the sea",
 		  "orgName": "Ortiz - Rutherford",
 		  "type": "Reverse-engineered",
 		  "picture": "http://lorempixel.com/640/480/sports",
@@ -619,7 +619,7 @@ module.exports = {
 			  "contactNumber": "1-534-149-6152",
 			  "email": "contact@ortiz-rutherford.com"
 		  },
-		  "desc": "web-enabled generate",
+		  "desc": "Clean all the litter at the beach",
 		  "commitment": "4 days/week",
 		  "avgCommitment": 10,
 		  "duration": 12,
@@ -628,11 +628,11 @@ module.exports = {
 			  "number": 2,
 			  "members": [13, 14]
 		  },
-		  "url": "ortiz-rutherford.com/multi-byteknowledgebaserandloti"
+		  "url": "ortiz-rutherford.com/cleanthesea"
 	  },
 	  {
 		  "eventID": 18,
-		  "name": "Buckinghamshire Shirt",
+		  "name": "Stop bad guys",
 		  "orgName": "Wisoky, Mayert and Stark",
 		  "type": "connecting",
 		  "picture": "http://lorempixel.com/640/480/technics",
@@ -654,7 +654,7 @@ module.exports = {
 			  "contactNumber": "1-088-936-6472 x66386",
 			  "email": "contact@wisokymayertandstark.com"
 		  },
-		  "desc": "Luxembourg COM indigo",
+		  "desc": "Stop the criminals from doing more criminal things",
 		  "commitment": "5 days/week",
 		  "avgCommitment": 13,
 		  "duration": 12,
@@ -663,11 +663,11 @@ module.exports = {
 			  "number": 3,
 			  "members": [8, 12, 19]
 		  },
-		  "url": "wisokymayertandstark.com/buckinghamshireshirt"
+		  "url": "wisokymayertandstark.com/stopthecriminals"
 	  },
 	  {
 		  "eventID": 19,
-		  "name": "Legacy Rustic deposit",
+		  "name": "Stop the boats",
 		  "orgName": "Jerde LLC",
 		  "type": "Lilangeni",
 		  "picture": "http://lorempixel.com/640/480/city",
@@ -689,7 +689,7 @@ module.exports = {
 			  "contactNumber": "177.647.5186 x967",
 			  "email": "contact@jerdellc.com"
 		  },
-		  "desc": "Parks Liaison Hong Kong Dollar",
+		  "desc": "Stop the boats from coming to Australian shores",
 		  "commitment": "1 days/week",
 		  "avgCommitment": 3,
 		  "duration": 3,
@@ -698,7 +698,7 @@ module.exports = {
 			  "number": 6,
 			  "members": [5, 1, 12, 15, 18, 9]
 		  },
-		  "url": "jerdellc.com/legacyrusticdeposit"
+		  "url": "jerdellc.com/stoptheboats"
 	  }
   ]
 }
