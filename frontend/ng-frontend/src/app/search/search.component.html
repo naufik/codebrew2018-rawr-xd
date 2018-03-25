@@ -2,45 +2,41 @@
 	<form>
 		<div class="form-group" id="choices">
 			<div class="input-group">
-				<input class="form-control" type="text" placeholder="Search for something.." #searchbar (input)="filter(searchbar.value)">
+				<input class="form-control" type="text" placeholder="Search for something.." #searchbar (input)="changeQuery(searchbar.value)">
 				<span class="input-group-btn">
 					<button class="btn btn-primary form-control" type="submit"><i class="fa fa-search"></i></button>
 				</span>
 			</div>
 		</div>
 		<div class="form-group">
+<<<<<<< HEAD
 				<i class="fa fa-hourglass-start fa-fw w3-margin-right w3-text-theme"></i>
 				<label for="filter">Duration</label>
 				<input class="form-control" type="range" #slider/><hr>
+=======
+			<i class="fa fa-hourglass-start fa-fw w3-margin-right w3-text-theme"></i>
+			<label for="filter">Duration</label>
+			<input class="form-control" type="range" />
+			<hr>
+>>>>>>> 0eef6a07968f5b100dbe14f18d96112088844ea7
 			<i class="fas fa-clock"></i>
 			<label for="filter">Commitment</label>
-			<input class="form-control" type="number" name="Commitment" min="0" max="23"><hr>
+			<input class="form-control" type="number" name="Commitment" min="0" max="23">
+			<hr>
 		</div>
 
 		<div id="choices1" class="form-group">
 			<i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i>
 			<label for="filter">Within My Region</label>
-			<input class="form-control" type="checkbox"  id="withinRegion" unchecked /><hr>
+			<input class="form-control" type="checkbox" id="withinRegion" unchecked #region (change)="changeRegion(region.value)" />
+			<hr>
 
-			<i class="fa fa-tint fa-fw w3-margin-right w3-text-theme"></i>
-			<label for="filter">Clean water</label>
-			<input class="form-control" type="checkbox"  id="Water" unchecked /><hr>
-
-			<i class="fa fa-users fa-fw w3-margin-right w3-text-theme"></i>
-			<label for="filter">Gender Equality</label>
-			<input class="form-control" type="checkbox"  id="Gender" unchecked /><hr>
-
-			<i class="fas fa-money-bill-alt"></i>
-			<label for="filter">Poverty</label>
-			<input class="form-control" type="checkbox"  id="Poverty" unchecked /><hr>
-
-			<i class="fa fa-book fa-fw w3-margin-right w3-text-theme"></i>
-			<label for="filter">Education</label>
-			<input class="form-control" type="checkbox"  id="Education" unchecked /><hr>
-
-			<i class="fa fa-heartbeat fa-fw w3-margin-right w3-text-theme"></i>
-			<label for="filter">Health</label>
-			<input class="form-control" type="checkbox"  id="Health" unchecked /><hr>
+			<label for="tag">Tags</label>
+			<ul *ngFor="let dropdown of DropdownValue">
+				<li [class.selected]="dropdown.value === selected.value" (click)="onSelect(dropdown)">
+					{{dropdown.name}}
+				</li>
+			</ul>
 		</div>
 	</form>
 </div>
