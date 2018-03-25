@@ -2,14 +2,8 @@ import { Component, OnInit, Output, Input, EventEmitter } from '@angular/core';
 
 interface SearchOptions {
 	query: string;
-	flags?: {
-		region?: boolean,
-		water?: boolean,
-		equality?: boolean,
-		poverty?: boolean,
-		education?: boolean
-		health?: boolean
-	}
+	region?: boolean,
+	tag?: number
 }
 
 @Component({
@@ -22,12 +16,33 @@ export class SearchComponent implements OnInit {
 
 	constructor() { }
 
-	public filter(t: string) {
-		this.update.emit({ query: t });
+	public option = {
+		query: '',
+		region: true,
+		tag: -1
+	}
+
+	public changeTag(n: number) {
+		this.option.tag = n;
+		this.filter();
+	}
+
+	public changeRegion(b: boolean) {
+		this.option.region = b;
+		this.filter();
+	}
+
+	public changeQuery(t: string) {
+		this.option.query = t;
+		this.filter();
+	}
+
+	public filter() {
+		this.update.emit(this.option);
 	}
 
 	ngOnInit() {
-	
+
 	}
 
 }

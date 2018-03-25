@@ -18,27 +18,6 @@ import { CardComponent } from './card/card.component';
 import { FeedComponent } from './feed/feed.component';
 
 @NgModule({
-<<<<<<< HEAD
-	declarations: [
-		AppComponent,
-		UserComponent,
-		HeaderComponent,
-		SearchComponent,
-		SearchResultsComponent,
-		CardComponent
-	],
-	imports: [
-		BrowserModule,
-		HttpClientModule,
-		FormsModule
-	],
-	providers: [
-		JSONService,
-		ProfileService,
-		EventService
-	],
-	bootstrap: [AppComponent]
-=======
   declarations: [
     AppComponent,
     UserComponent,
@@ -58,6 +37,5 @@ import { FeedComponent } from './feed/feed.component';
     EventService
   ],
   bootstrap: [AppComponent]
->>>>>>> origin/dynamic
 })
 export class AppModule { }

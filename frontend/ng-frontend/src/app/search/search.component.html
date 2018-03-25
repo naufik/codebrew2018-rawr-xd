@@ -2,7 +2,8 @@
 	<form>
 		<div class="form-group" id="choices">
 			<div class="input-group">
-				<input class="form-control" type="text" placeholder="Search for something.." #searchbar (input)="filter(searchbar.value)">
+				<input class="form-control" type="text" placeholder="Search for something.."
+				#searchbar (input)="changeQuery(searchbar.value)">
 				<span class="input-group-btn">
 					<button class="btn btn-primary form-control" type="submit"><i class="fa fa-search"></i></button>
 				</span>
@@ -20,27 +21,33 @@
 		<div id="choices1" class="form-group">
 			<i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i>
 			<label for="filter">Within My Region</label>
-			<input class="form-control" type="checkbox"  id="withinRegion" unchecked /><hr>
+			<input class="form-control" type="checkbox"  id="withinRegion" unchecked
+			#region (change)= "changeRegion(region.value)"/><hr>
 
 			<i class="fa fa-tint fa-fw w3-margin-right w3-text-theme"></i>
 			<label for="filter">Clean water</label>
-			<input class="form-control" type="checkbox"  id="Water" unchecked /><hr>
+			<input class="form-control" type="checkbox"  id="Water" unchecked
+			#water (change)="changeTag(0)"/><hr>
 
 			<i class="fa fa-users fa-fw w3-margin-right w3-text-theme"></i>
 			<label for="filter">Gender Equality</label>
-			<input class="form-control" type="checkbox"  id="Gender" unchecked /><hr>
+			<input class="form-control" type="checkbox"  id="Gender" unchecked
+			#gender (change)="changeTag(1)"/><hr>
 
 			<i class="fas fa-money-bill-alt"></i>
 			<label for="filter">Poverty</label>
-			<input class="form-control" type="checkbox"  id="Poverty" unchecked /><hr>
+			<input class="form-control" type="checkbox"  id="Poverty" unchecked
+			#poverty (change)="changeTag(2)"/><hr>
 
 			<i class="fa fa-book fa-fw w3-margin-right w3-text-theme"></i>
 			<label for="filter">Education</label>
-			<input class="form-control" type="checkbox"  id="Education" unchecked /><hr>
+			<input class="form-control" type="checkbox"  id="Education" unchecked
+			#education (change)="changeTag(3)"/><hr>
 
 			<i class="fa fa-heartbeat fa-fw w3-margin-right w3-text-theme"></i>
 			<label for="filter">Health</label>
-			<input class="form-control" type="checkbox"  id="Health" unchecked /><hr>
+			<input class="form-control" type="checkbox"  id="Health" unchecked
+			#health (change)="changeTag(4)"/><hr>
 		</div>
 	</form>
 </div>
