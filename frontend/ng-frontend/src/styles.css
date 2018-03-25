@@ -41,9 +41,9 @@ body{
 	width:20%;
 	left: 2.25%;
 	position:fixed;
-	bottom:5%;
+	top: 10%;
+	bottom: 5%;
 	vertical-align: middle;
-
 	padding: 25px;
 }
 
@@ -120,6 +120,7 @@ p{
 	box-shadow: 1px 1px 5px black;
 	height:500px;
 	height:55%;
+	top: 10%;
 	width:20%;
 	right: 2.25%;
 	position:fixed;

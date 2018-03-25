@@ -7,8 +7,8 @@ module.exports = {
       "dob": "Mon Dec 08 1980 00:04:13 GMT+1100 (AUS Eastern Daylight Time)",
       "contact": {
         "contactNumber": "(969) 460-5273",
-        "email": "jarretkovacek@gmail.com",
-        "website": "georgia.net",
+        "email": "jeffjefferson@gmail.com",
+        "website": "http://je.ff",
         "emergencyContact": {
           "name": "Neoma Bosco DDS",
           "contact": "(196) 717-2557 x8471"

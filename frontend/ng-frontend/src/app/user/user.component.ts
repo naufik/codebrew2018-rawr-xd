@@ -11,6 +11,7 @@ export class UserComponent implements OnInit {
   private service: ProfileService;
   @Input() public userId: number;
   @Input() public style: string;
+  @Output() public goto: EventEmitter<number> = new EventEmitter<number>();
   public user;
 
   constructor(service: ProfileService) {
@@ -21,5 +22,9 @@ export class UserComponent implements OnInit {
     this.service.getUserData(this.userId).then((u) => {
       this.user = u;
     })
+  }
+
+  public goToUserPage(){
+  	this.goto.emit(this.userId);
   }
 }

@@ -7,6 +7,8 @@
   z-index: 10;
 }
 
+
+
 #profile{
   background-color: #bfb8ad;
   left: 80px;
@@ -16,20 +18,35 @@
   height: 220px;
 }
 
-#calendar{
-  position: fixed;
-  left: 35px;
-  bottom: 100px;
-}
-
 h1{
   text-align: center;
 }
+
+h5{
+  font-size: 60%;
+}
+
+h3{
+  font-size: 100%;
+}
+
+h4{
+  font-size: 40%;
+}
+
+
 
 #logo{
   position: relative;
   border-radius: 60%;
   right: 0.55%;
+}
+
+hr.middle {
+  width: 80%;
+  height: 1%;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
 }
 
 body{
@@ -48,6 +65,12 @@ body{
   vertical-align: middle;
   padding: 50px;
   top:65px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+individualOption{
+  font-size: 10%;
 }
 
 #options{
@@ -57,23 +80,39 @@ body{
 tr:not(:last-child) {
   border-bottom: 1px solid black; }
 
-#mainSide{
-  height: 75%;
+#mainSide {
+  padding-top: 60px;
+  left: 25%;
+  text-align: center;
+  vertical-align: middle;
+
+  height: 80%;
+  bottom: 0%;
+}
+
+#profilePage{
+  height: 100%;
   margin: 0 auto;
   text-align: center;
   vertical-align: middle;
   padding: 20px;
-  top: 45px;
-  font-size: 200%
+  top: 40px;
+  font-size: 200%;
 }
 
 #sideMain{
   box-shadow: 1px 1px 5px black;
   background-color: #FFFFFF;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 
-#dp{
+#display{
   border-radius: 50%;
+}
+
+p.middle{
+  font-size: 20%;
 }
 
 #name{
@@ -94,16 +133,10 @@ tr:not(:last-child) {
   padding: 50px;
   overflow:auto;
   top:65px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
 }
 
 #feedPic{
   border-radius: 50%;
-}
-
-#footer{
-  background-color: #292f36;
-  position: fixed;
-  width: 100%;
-  bottom: 0%;
-  height: 5%;
 }

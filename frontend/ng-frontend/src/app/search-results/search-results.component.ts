@@ -2,29 +2,24 @@ import { Component, OnInit, Input } from '@angular/core';
 import { EventService } from '../services/event.service';
 
 interface SearchOptions {
-	query: string;
-	flags?: {
-		region?: boolean,
-		water?: boolean,
-		equality?: boolean,
-		poverty?: boolean,
-		education?: boolean
-		health?: boolean
-	}
+	query: '',
+	region: boolean,
+	tag: -1
 }
 
+
 @Component({
-  selector: 'results',
-  templateUrl: './search-results.component.html',
-  providers: [ EventService ],
-  styleUrls: ['./search-results.component.css']
+	selector: 'results',
+	templateUrl: './search-results.component.html',
+	providers: [EventService],
+	styleUrls: ['./search-results.component.css']
 })
 export class SearchResultsComponent implements OnInit {
 	private service: EventService;
 	@Input() public settings;
 	private data;
 
-	constructor(events: EventService) { 
+	constructor(events: EventService) {
 		this.service = events;
 	}
 
@@ -34,8 +29,11 @@ export class SearchResultsComponent implements OnInit {
 		});
 	}
 
-	public display(t: SearchOptions) {
-		return this.data.filter((thing: {name: string}) => thing.name.toLowerCase().includes(t.query.toLowerCase()));
+	public display(t: SearchOptions, userLocation, Location) {
+		return this.data.filter((thing: { name: string }) =>
+			thing.name.toLowerCase().includes(t.query.toLowerCase()))
+		.filter(((thing1: { category : number }) =>
+			thing1.category === t.tag || t.tag === -1));
 	}
 
 }
