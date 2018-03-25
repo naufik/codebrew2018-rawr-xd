@@ -55,11 +55,17 @@ p{
   padding: 10px;
 }
 
-h2{
-  text-align: right;
+h4{
+  text-align: center;
   bottom: 50%;
 }
 
+h2{
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+  font-size: 1vw;
+}
 
 a{
   padding-left: 80px;
@@ -86,6 +92,7 @@ body{
 h3{
   width: 100%;
   padding: 5px;
+  padding-top: 20%;
   text-align: center;
   font-size: 1vw;
 }
@@ -131,12 +138,13 @@ h3{
 }
 
 #content{
+  top: 40%;
+  padding-left: 8%;
   flex: 2 2 20em;
   display: inline-block;
   position: absolute;
-  text-align: center;
+  text-align: left;
   font-size: 1vw;
-  padding-left:10%;
 }
 
 #searchBar{
