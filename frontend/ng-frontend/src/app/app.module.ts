@@ -14,6 +14,7 @@ import { SearchComponent } from './search/search.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { CardComponent } from './card/card.component';
 import { FeedComponent } from './feed/feed.component';
+import { ParticipationComponent } from './participation/participation.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FeedComponent } from './feed/feed.component';
     SearchComponent,
     SearchResultsComponent,
     CardComponent,
-    FeedComponent
+    FeedComponent,
+    ParticipationComponent
   ],
   imports: [
     BrowserModule,
