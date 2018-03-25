@@ -2,7 +2,7 @@ module.exports = {
   "content": [
 	  {
 		  "eventID": 0,
-		  "name": "Identity",
+		  "name": "Feed the children",
 		  "orgName": "Ledner - Lind",
 		  "type": "Alaska",
 		  "picture": "http://lorempixel.com/640/480/transport",
@@ -24,7 +24,7 @@ module.exports = {
 			  "contactNumber": "1-904-518-8878 x7066",
 			  "email": "contact@ledner-lind.com"
 		  },
-		  "desc": "Soap primary bypassing",
+		  "desc": "if(child.hungry()){child.feed()};",
 		  "commitment": "2 days/week",
 		  "avgCommitment": 9,
 		  "duration": 4,
@@ -33,11 +33,11 @@ module.exports = {
 			  "number": 5,
 			  "members": [18, 9, 11, 13, 5]
 		  },
-		  "url": "ledner-lind.com/identity"
+		  "url": "ledner-lind.com/feedthechildren"
 	  },
 	  {
 		  "eventID": 1,
-		  "name": "Designer Customer",
+		  "name": "Save the whales",
 		  "orgName": "Huels and Sons",
 		  "type": "haptic",
 		  "picture": "http://lorempixel.com/640/480/transport",
@@ -59,7 +59,7 @@ module.exports = {
 			  "contactNumber": "801.719.3258",
 			  "email": "contact@huelsandsons.com"
 		  },
-		  "desc": "primary Pines",
+		  "desc": "if(whale.endangered()){whale.save()};",
 		  "commitment": "3 days/week",
 		  "avgCommitment": 2,
 		  "duration": 5,
@@ -68,7 +68,7 @@ module.exports = {
 			  "number": 7,
 			  "members": [12, 17, 1, 4, 0, 13, 13]
 		  },
-		  "url": "huelsandsons.com/designercustomer"
+		  "url": "huelsandsons.com/savethewhales"
 	  },
 	  {
 		  "eventID": 2,

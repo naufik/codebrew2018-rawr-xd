@@ -8,7 +8,7 @@ module.exports = {
       "contact": {
         "contactNumber": "(969) 460-5273",
         "email": "jeffjefferson@gmail.com",
-        "website": "georgia.net",
+        "website": "http://je.ff",
         "emergencyContact": {
           "name": "Neoma Bosco DDS",
           "contact": "(196) 717-2557 x8471"
